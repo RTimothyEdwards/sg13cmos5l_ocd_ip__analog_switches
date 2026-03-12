@@ -1,0 +1,31 @@
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_openframe/ip/sg13cmos5l_ocd_ip__analog_switches/xschem/power_stage.sch
+.subckt power_stage enable IOVDD_IN IOVSS DVSS DVDD IOVDD_OUT
+*.PININFO enable:I IOVDD_OUT:I IOVDD_IN:I DVSS:I DVDD:I IOVSS:I
+XM14 IOVDD_OUT P_DRIVE IOVDD_IN IOVDD_IN sg13_hv_pmos w=4.36u l=0.4u ng=1 m=760
+x2 net1 net2 P_DRIVE IOVDD_IN IOVSS gate_drive
+x1 net1 enable DVDD DVSS sg13cmos5l_inv_4
+x3 net2 net1 DVDD DVSS sg13cmos5l_inv_4
+x4[1] DVDD DVSS sg13cmos5l_decap_4
+x4[0] DVDD DVSS sg13cmos5l_decap_4
+x9 enable DVDD DVSS sg13cmos5l_antennanp
+.ends
+
+* expanding   symbol:  gate_drive.sym # of pins=5
+** sym_path: /home/tim/gits/sg13cmos5l_ocd_openframe/ip/sg13cmos5l_ocd_ip__analog_switches/xschem/gate_drive.sym
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_openframe/ip/sg13cmos5l_ocd_ip__analog_switches/xschem/gate_drive.sch
+.subckt gate_drive in_n in_p out vdd vss
+*.PININFO in_n:I in_p:I vdd:I vss:I out:O
+XM1 net1 in_p vss vss sg13_hv_nmos w=2u l=0.5u ng=1 m=2
+XM2 net1 S1_N vdd vdd sg13_hv_pmos w=4u l=0.5u ng=1 m=2
+XM3 S1_N in_n vss vss sg13_hv_nmos w=2u l=0.5u ng=1 m=2
+XM4 S1_N net1 vdd vdd sg13_hv_pmos w=4u l=0.5u ng=1 m=2
+XM5 S2_N S1_N vdd vdd sg13_hv_pmos w=10u l=0.5u ng=1 m=2
+XM6 S2_N S1_N vss vss sg13_hv_nmos w=5u l=0.5u ng=1 m=2
+XM7 S3_N S2_N vdd vdd sg13_hv_pmos w=10u l=0.5u ng=1 m=6
+XM8 S3_N S2_N vss vss sg13_hv_nmos w=5u l=0.5u ng=1 m=6
+XM9 S4_N S3_N vdd vdd sg13_hv_pmos w=10u l=0.5u ng=1 m=20
+XM10 S4_N S3_N vss vss sg13_hv_nmos w=5u l=0.5u ng=1 m=20
+XM11 out S4_N vdd vdd sg13_hv_pmos w=10u l=0.5u ng=1 m=60
+XM12 out S4_N vss vss sg13_hv_nmos w=5u l=0.5u ng=1 m=60
+.ends
+

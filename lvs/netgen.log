@@ -1,0 +1,255 @@
+Netgen 1.5.314 compiled on Mon Mar  9 16:03:17 EDT 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Call to undefined subcircuit sg13_hv_nmos
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_hv_pmos
+Creating placeholder cell definition.
+Call to undefined subcircuit dpantenna
+Creating placeholder cell definition.
+Call to undefined subcircuit dantenna
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_lv_pmos
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_lv_nmos
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_lv_nmos
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_lv_pmos
+Creating placeholder cell definition.
+Call to undefined subcircuit dantenna
+Creating placeholder cell definition.
+Call to undefined subcircuit dpantenna
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_hv_pmos
+Creating placeholder cell definition.
+Call to undefined subcircuit gate_drive
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_hv_nmos
+Creating placeholder cell definition.
+
+Reading setup file /home/tim/gits/ihp-sg13cmos5l/libs.tech/netgen/ihp-sg13cmos5l_setup.tcl
+
+Model sg13_hv_nmos pin 1 == 3
+No property ng found for device sg13_hv_nmos
+No property trise found for device sg13_hv_nmos
+No property z1 found for device sg13_hv_nmos
+No property z2 found for device sg13_hv_nmos
+No property wmin found for device sg13_hv_nmos
+No property rfmode found for device sg13_hv_nmos
+No property pre_layout found for device sg13_hv_nmos
+Model sg13_hv_nmos pin 1 == 3
+No property as found for device sg13_hv_nmos
+No property ad found for device sg13_hv_nmos
+No property pd found for device sg13_hv_nmos
+No property ps found for device sg13_hv_nmos
+No property trise found for device sg13_hv_nmos
+No property z1 found for device sg13_hv_nmos
+No property z2 found for device sg13_hv_nmos
+No property wmin found for device sg13_hv_nmos
+No property rfmode found for device sg13_hv_nmos
+No property pre_layout found for device sg13_hv_nmos
+Model sg13_hv_pmos pin 1 == 3
+No property ng found for device sg13_hv_pmos
+No property trise found for device sg13_hv_pmos
+No property z1 found for device sg13_hv_pmos
+No property z2 found for device sg13_hv_pmos
+No property wmin found for device sg13_hv_pmos
+No property rfmode found for device sg13_hv_pmos
+No property pre_layout found for device sg13_hv_pmos
+Model sg13_hv_pmos pin 1 == 3
+No property as found for device sg13_hv_pmos
+No property ad found for device sg13_hv_pmos
+No property pd found for device sg13_hv_pmos
+No property ps found for device sg13_hv_pmos
+No property trise found for device sg13_hv_pmos
+No property z1 found for device sg13_hv_pmos
+No property z2 found for device sg13_hv_pmos
+No property wmin found for device sg13_hv_pmos
+No property rfmode found for device sg13_hv_pmos
+No property pre_layout found for device sg13_hv_pmos
+Model sg13_lv_nmos pin 1 == 3
+No property ng found for device sg13_lv_nmos
+No property trise found for device sg13_lv_nmos
+No property z1 found for device sg13_lv_nmos
+No property z2 found for device sg13_lv_nmos
+No property wmin found for device sg13_lv_nmos
+No property rfmode found for device sg13_lv_nmos
+No property pre_layout found for device sg13_lv_nmos
+Model sg13_lv_nmos pin 1 == 3
+No property trise found for device sg13_lv_nmos
+No property z1 found for device sg13_lv_nmos
+No property z2 found for device sg13_lv_nmos
+No property wmin found for device sg13_lv_nmos
+No property rfmode found for device sg13_lv_nmos
+No property pre_layout found for device sg13_lv_nmos
+Model sg13_lv_pmos pin 1 == 3
+No property ng found for device sg13_lv_pmos
+No property trise found for device sg13_lv_pmos
+No property z1 found for device sg13_lv_pmos
+No property z2 found for device sg13_lv_pmos
+No property wmin found for device sg13_lv_pmos
+No property rfmode found for device sg13_lv_pmos
+No property pre_layout found for device sg13_lv_pmos
+Model sg13_lv_pmos pin 1 == 3
+No property trise found for device sg13_lv_pmos
+No property z1 found for device sg13_lv_pmos
+No property z2 found for device sg13_lv_pmos
+No property wmin found for device sg13_lv_pmos
+No property rfmode found for device sg13_lv_pmos
+No property pre_layout found for device sg13_lv_pmos
+No property DEV_A found for device dantenna
+No property DEV_P found for device dantenna
+No property DEV_C found for device dantenna
+No property DEV_A found for device dantenna
+No property DEV_P found for device dantenna
+No property DEV_C found for device dantenna
+No property DEV_A found for device dpantenna
+No property DEV_P found for device dpantenna
+No property DEV_C found for device dpantenna
+No property DEV_A found for device dpantenna
+No property DEV_P found for device dpantenna
+No property DEV_C found for device dpantenna
+Comparison output logged to file power_stage_comp.out
+Logging to file "power_stage_comp.out" enabled
+Circuit sg13_hv_nmos contains no devices.
+Circuit sg13_hv_pmos contains no devices.
+Circuit dpantenna contains no devices.
+Circuit dantenna contains no devices.
+Circuit sg13_lv_pmos contains no devices.
+Circuit sg13_lv_nmos contains no devices.
+
+Contents of circuit 1:  Circuit: 'gate_drive'
+Circuit gate_drive contains 184 device instances.
+  Class: sg13_hv_pmos          instances:  92
+  Class: sg13_hv_nmos          instances:  92
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'gate_drive'
+Circuit gate_drive contains 12 device instances.
+  Class: sg13_hv_pmos          instances:   6
+  Class: sg13_hv_nmos          instances:   6
+Circuit contains 10 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'gate_drive'
+Circuit gate_drive contains 12 device instances.
+  Class: sg13_hv_pmos          instances:   6
+  Class: sg13_hv_nmos          instances:   6
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'gate_drive'
+Circuit gate_drive contains 12 device instances.
+  Class: sg13_hv_pmos          instances:   6
+  Class: sg13_hv_nmos          instances:   6
+Circuit contains 10 nets.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 10 nets.
+
+
+Contents of circuit 1:  Circuit: 'sg13cmos5l_antennanp'
+Circuit sg13cmos5l_antennanp contains 2 device instances.
+  Class: dpantenna             instances:   1
+  Class: dantenna              instances:   1
+Circuit contains 3 nets.
+Contents of circuit 2:  Circuit: 'sg13cmos5l_antennanp'
+Circuit sg13cmos5l_antennanp contains 2 device instances.
+  Class: dpantenna             instances:   1
+  Class: dantenna              instances:   1
+Circuit contains 3 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 3 nets,    Circuit 2 contains 3 nets.
+
+
+Contents of circuit 1:  Circuit: 'sg13cmos5l_decap_4'
+Circuit sg13cmos5l_decap_4 contains 2 device instances.
+  Class: sg13_lv_pmos          instances:   1
+  Class: sg13_lv_nmos          instances:   1
+Circuit contains 2 nets.
+Contents of circuit 2:  Circuit: 'sg13cmos5l_decap_4'
+Circuit sg13cmos5l_decap_4 contains 2 device instances.
+  Class: sg13_lv_pmos          instances:   1
+  Class: sg13_lv_nmos          instances:   1
+Circuit contains 2 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 2 nets,    Circuit 2 contains 2 nets.
+
+
+Contents of circuit 1:  Circuit: 'sg13cmos5l_inv_4'
+Circuit sg13cmos5l_inv_4 contains 8 device instances.
+  Class: sg13_lv_pmos          instances:   4
+  Class: sg13_lv_nmos          instances:   4
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sg13cmos5l_inv_4'
+Circuit sg13cmos5l_inv_4 contains 2 device instances.
+  Class: sg13_lv_pmos          instances:   1
+  Class: sg13_lv_nmos          instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sg13cmos5l_inv_4'
+Circuit sg13cmos5l_inv_4 contains 2 device instances.
+  Class: sg13_lv_pmos          instances:   1
+  Class: sg13_lv_nmos          instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sg13cmos5l_inv_4'
+Circuit sg13cmos5l_inv_4 contains 2 device instances.
+  Class: sg13_lv_pmos          instances:   1
+  Class: sg13_lv_nmos          instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'power_stage'
+Circuit power_stage contains 766 device instances.
+  Class: sg13cmos5l_antennanp  instances:   1
+  Class: sg13cmos5l_decap_4    instances:   2
+  Class: sg13_hv_pmos          instances: 760
+  Class: sg13cmos5l_inv_4      instances:   2
+  Class: gate_drive            instances:   1
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'power_stage'
+Circuit power_stage contains 7 device instances.
+  Class: sg13cmos5l_antennanp  instances:   1
+  Class: sg13cmos5l_decap_4    instances:   2
+  Class: sg13_hv_pmos          instances:   1
+  Class: sg13cmos5l_inv_4      instances:   2
+  Class: gate_drive            instances:   1
+Circuit contains 9 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'power_stage'
+Circuit power_stage contains 6 device instances.
+  Class: sg13cmos5l_antennanp  instances:   1
+  Class: sg13cmos5l_decap_4    instances:   1
+  Class: sg13_hv_pmos          instances:   1
+  Class: sg13cmos5l_inv_4      instances:   2
+  Class: gate_drive            instances:   1
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'power_stage'
+Circuit power_stage contains 6 device instances.
+  Class: sg13cmos5l_antennanp  instances:   1
+  Class: sg13cmos5l_decap_4    instances:   1
+  Class: sg13_hv_pmos          instances:   1
+  Class: sg13cmos5l_inv_4      instances:   2
+  Class: gate_drive            instances:   1
+Circuit contains 9 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "power_stage_comp.out" disabled
+LVS Done.

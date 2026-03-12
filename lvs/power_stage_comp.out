@@ -1,0 +1,206 @@
+
+Circuit 1 cell sg13_hv_nmos and Circuit 2 cell sg13_hv_nmos are black boxes.
+Warning: Equate pins:  cell sg13_hv_nmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_hv_nmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_hv_nmos                    |Circuit 2: sg13_hv_nmos                    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_hv_nmos and sg13_hv_nmos are equivalent.
+
+Circuit 1 cell sg13_hv_pmos and Circuit 2 cell sg13_hv_pmos are black boxes.
+Warning: Equate pins:  cell sg13_hv_pmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_hv_pmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_hv_pmos                    |Circuit 2: sg13_hv_pmos                    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_hv_pmos and sg13_hv_pmos are equivalent.
+
+Circuit 1 cell dpantenna and Circuit 2 cell dpantenna are black boxes.
+Warning: Equate pins:  cell dpantenna is a placeholder, treated as a black box.
+Warning: Equate pins:  cell dpantenna is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: dpantenna                       |Circuit 2: dpantenna                       
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes dpantenna and dpantenna are equivalent.
+
+Circuit 1 cell dantenna and Circuit 2 cell dantenna are black boxes.
+Warning: Equate pins:  cell dantenna is a placeholder, treated as a black box.
+Warning: Equate pins:  cell dantenna is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: dantenna                        |Circuit 2: dantenna                        
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes dantenna and dantenna are equivalent.
+
+Circuit 1 cell sg13_lv_pmos and Circuit 2 cell sg13_lv_pmos are black boxes.
+Warning: Equate pins:  cell sg13_lv_pmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_lv_pmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_lv_pmos                    |Circuit 2: sg13_lv_pmos                    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_lv_pmos and sg13_lv_pmos are equivalent.
+
+Circuit 1 cell sg13_lv_nmos and Circuit 2 cell sg13_lv_nmos are black boxes.
+Warning: Equate pins:  cell sg13_lv_nmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_lv_nmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_lv_nmos                    |Circuit 2: sg13_lv_nmos                    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_lv_nmos and sg13_lv_nmos are equivalent.
+Flattening unmatched subcell sg13_hv_nmos_XAVYYR in circuit gate_drive (0)(1 instance)
+Flattening unmatched subcell sg13_hv_nmos_3JX36Y in circuit gate_drive (0)(1 instance)
+Flattening unmatched subcell sg13_hv_pmos_YZSTZS in circuit gate_drive (0)(1 instance)
+Flattening unmatched subcell sg13_hv_pmos_RQMCRC in circuit gate_drive (0)(1 instance)
+
+Class gate_drive (0):  Merged 172 parallel devices.
+Subcircuit summary:
+Circuit 1: gate_drive                      |Circuit 2: gate_drive                      
+-------------------------------------------|-------------------------------------------
+sg13_hv_nmos (92->6)                       |sg13_hv_nmos (92->6)                       
+sg13_hv_pmos (92->6)                       |sg13_hv_pmos (92->6)                       
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: gate_drive                      |Circuit 2: gate_drive                      
+-------------------------------------------|-------------------------------------------
+out                                        |out                                        
+in_p                                       |in_p                                       
+in_n                                       |in_n                                       
+vss                                        |vss                                        
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gate_drive and gate_drive are equivalent.
+
+Subcircuit summary:
+Circuit 1: sg13cmos5l_antennanp            |Circuit 2: sg13cmos5l_antennanp            
+-------------------------------------------|-------------------------------------------
+dpantenna (1)                              |dpantenna (1)                              
+dantenna (1)                               |dantenna (1)                               
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sg13cmos5l_antennanp            |Circuit 2: sg13cmos5l_antennanp            
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13cmos5l_antennanp and sg13cmos5l_antennanp are equivalent.
+
+Subcircuit summary:
+Circuit 1: sg13cmos5l_decap_4              |Circuit 2: sg13cmos5l_decap_4              
+-------------------------------------------|-------------------------------------------
+sg13_lv_pmos (1)                           |sg13_lv_pmos (1)                           
+sg13_lv_nmos (1)                           |sg13_lv_nmos (1)                           
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sg13cmos5l_decap_4              |Circuit 2: sg13cmos5l_decap_4              
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13cmos5l_decap_4 and sg13cmos5l_decap_4 are equivalent.
+
+Class sg13cmos5l_inv_4 (0):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: sg13cmos5l_inv_4                |Circuit 2: sg13cmos5l_inv_4                
+-------------------------------------------|-------------------------------------------
+sg13_lv_nmos (4->1)                        |sg13_lv_nmos (1)                           
+sg13_lv_pmos (4->1)                        |sg13_lv_pmos (1)                           
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sg13cmos5l_inv_4                |Circuit 2: sg13cmos5l_inv_4                
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13cmos5l_inv_4 and sg13cmos5l_inv_4 are equivalent.
+Flattening unmatched subcell pmos_waffle_20 in circuit power_stage (0)(1 instance)
+
+Class power_stage (0):  Merged 760 parallel devices.
+Class power_stage (1):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: power_stage                     |Circuit 2: power_stage                     
+-------------------------------------------|-------------------------------------------
+gate_drive (1)                             |gate_drive (1)                             
+sg13cmos5l_antennanp (1)                   |sg13cmos5l_antennanp (1)                   
+sg13cmos5l_decap_4 (2->1)                  |sg13cmos5l_decap_4 (2->1)                  
+sg13_hv_pmos (760->1)                      |sg13_hv_pmos (760->1)                      
+sg13cmos5l_inv_4 (2)                       |sg13cmos5l_inv_4 (2)                       
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: power_stage                     |Circuit 2: power_stage                     
+-------------------------------------------|-------------------------------------------
+DVDD                                       |DVDD                                       
+DVSS                                       |DVSS                                       
+IOVDD_OUT                                  |IOVDD_OUT                                  
+IOVSS                                      |IOVSS                                      
+IOVDD_IN                                   |IOVDD_IN                                   
+enable                                     |enable                                     
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes power_stage and power_stage are equivalent.
+
+Final result: Circuits match uniquely.
+.
