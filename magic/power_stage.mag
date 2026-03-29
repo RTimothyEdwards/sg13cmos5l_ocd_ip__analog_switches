@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1774747317
+timestamp 1774748448
 << digisub >>
 rect 19006 -4028 21312 -3394
 << nwell >>
@@ -152,7 +152,7 @@ rect -1044 1042 380 18218
 rect 22378 376 23866 21830
 rect 972 -1112 23866 376
 use gate_drive  gate_drive_0
-timestamp 1774747317
+timestamp 1774748448
 transform -1 0 16488 0 1 -4780
 box -1804 -292 15534 4492
 use pmos_waffle_20  pmos_waffle_20_0
