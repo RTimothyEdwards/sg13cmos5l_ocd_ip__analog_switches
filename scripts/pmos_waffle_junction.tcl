@@ -6,7 +6,21 @@ set curunits [units]
 units internal
 load pmos_waffle_junction -silent
 box values 0 0 0 0
-box values -1634 -1634 2634 2634
+box values -1741 2733 2377 3000
+paint checkpaint
+box values -2000 2634 2377 2733
+paint checkpaint
+box values -2000 2376 2634 2634
+paint checkpaint
+box values -2000 2371 2740 2376
+paint checkpaint
+box values -2000 -1374 3000 2371
+paint checkpaint
+box values -1634 -1634 3000 -1374
+paint checkpaint
+box values -1373 -1716 3000 -1634
+paint checkpaint
+box values -1373 -2000 2740 -1716
 paint checkpaint
 box values 0 0 1000 1000
 paint nwell
@@ -102,29 +116,29 @@ box values 620 406 1000 438
 paint hvpdiffc
 box values 562 0 594 380
 paint hvpdiffc
-box values 320 680 334 1000
+box values 316 684 330 1000
 paint hvnsubdiff
-box values 0 666 334 680
+box values 0 670 330 684
 paint hvnsubdiff
-box values 366 634 380 1000
+box values 362 638 380 1000
 paint hvnsubdiff
-box values 0 620 380 634
+box values 0 620 380 638
 paint hvnsubdiff
-box values 620 366 1000 380
+box values 620 362 1000 380
 paint hvnsubdiff
-box values 620 0 634 366
+box values 620 0 638 362
 paint hvnsubdiff
-box values 666 320 1000 334
+box values 670 316 1000 330
 paint hvnsubdiff
-box values 666 0 680 320
+box values 670 0 684 316
 paint hvnsubdiff
-box values 334 666 366 1000
+box values 330 670 362 1000
 paint hvnsubdiffcont
-box values 0 634 366 666
+box values 0 638 362 670
 paint hvnsubdiffcont
-box values 634 334 1000 366
+box values 638 330 1000 362
 paint hvnsubdiffcont
-box values 634 0 666 334
+box values 638 0 670 330
 paint hvnsubdiffcont
 box values 460 540 540 564
 paint poly
@@ -144,11 +158,15 @@ box values 274 726 284 1000
 paint metal1
 box values 0 716 284 726
 paint metal1
-box values 324 676 334 1000
+box values 324 676 330 1000
 paint metal1
-box values 0 666 334 676
+box values 0 670 330 676
 paint metal1
-box values 366 634 406 666
+box values 362 666 366 1000
+paint metal1
+box values 362 638 406 666
+paint metal1
+box values 0 634 406 638
 paint metal1
 box values 334 620 406 634
 paint metal1
@@ -262,11 +280,15 @@ box values 548 0 562 380
 paint metal1
 box values 594 366 666 380
 paint metal1
-box values 594 334 634 366
+box values 594 362 1000 366
 paint metal1
-box values 666 324 1000 334
+box values 594 334 638 362
 paint metal1
-box values 666 0 676 324
+box values 634 0 638 334
+paint metal1
+box values 670 324 1000 330
+paint metal1
+box values 670 0 676 324
 paint metal1
 box values 716 274 1000 284
 paint metal1

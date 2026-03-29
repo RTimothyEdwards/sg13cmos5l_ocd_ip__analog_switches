@@ -8,19 +8,19 @@ load pmos_waffle_corner -silent
 box values 0 0 0 0
 box values -1616 2888 2422 3124
 paint checkpaint
-box values -1616 2634 2540 2888
+box values -1616 2684 2540 2888
 paint checkpaint
-box values -1634 2540 2540 2634
+box values -2000 2540 2540 2684
 paint checkpaint
-box values -1634 2422 2888 2540
+box values -2000 2422 2888 2540
 paint checkpaint
-box values -1634 2180 3124 2422
+box values -2000 -1373 3124 2422
 paint checkpaint
-box values -2000 -1616 3124 2180
+box values -1634 -1616 3124 -1373
 paint checkpaint
-box values -2000 -1634 2634 -1616
+box values -1634 -1634 2684 -1616
 paint checkpaint
-box values -2000 -2000 2180 -1634
+box values -1377 -2000 2684 -1634
 paint checkpaint
 box values 0 0 876 876
 paint nwell
@@ -78,25 +78,25 @@ box values 1000 0 1022 1000
 paint hvpsubdiff
 box values 1102 0 1124 1102
 paint hvpsubdiff
-box values 0 666 436 680
+box values 0 670 436 684
 paint hvnsubdiff
-box values 380 634 436 666
+box values 380 638 436 670
 paint hvnsubdiff
-box values 0 620 436 634
+box values 0 620 436 638
 paint hvnsubdiff
-box values 620 380 680 436
+box values 620 380 684 436
 paint hvnsubdiff
-box values 620 0 634 380
+box values 620 0 638 380
 paint hvnsubdiff
-box values 666 0 680 380
+box values 670 0 684 380
 paint hvnsubdiff
 box values 0 1022 1102 1102
 paint hvpsubdiffcont
 box values 1022 0 1102 1022
 paint hvpsubdiffcont
-box values 0 634 380 666
+box values 0 638 380 670
 paint hvnsubdiffcont
-box values 634 0 666 380
+box values 638 0 670 380
 paint hvnsubdiffcont
 box values 0 864 512 888
 paint poly
@@ -156,9 +156,11 @@ box values 0 716 452 726
 paint metal1
 box values 406 676 452 716
 paint metal1
-box values 0 666 452 676
+box values 0 670 452 676
 paint metal1
-box values 380 634 452 666
+box values 380 638 452 670
+paint metal1
+box values 0 634 452 638
 paint metal1
 box values 334 616 452 634
 paint metal1
@@ -246,9 +248,11 @@ box values 548 380 676 384
 paint metal1
 box values 548 0 562 380
 paint metal1
-box values 594 334 634 380
+box values 594 334 638 380
 paint metal1
-box values 666 0 676 380
+box values 634 0 638 334
+paint metal1
+box values 670 0 676 380
 paint metal1
 box values 716 0 726 406
 paint metal1

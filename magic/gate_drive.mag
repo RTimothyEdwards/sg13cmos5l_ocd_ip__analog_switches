@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1774796900
+timestamp 1774817789
 << nwell >>
 rect -1740 1430 15534 4492
 << hvpsubdiff >>
@@ -1059,4 +1059,6 @@ flabel metal3 -566 -40 -352 270 0 FreeSans 1600 0 0 0 vss
 port 3 nsew
 flabel metal3 14624 1288 14890 1416 0 FreeSans 1600 0 0 0 out
 port 4 nsew
+<< properties >>
+string MASKHINTS_THKOX -1804 -292 15534 4492
 << end >>

@@ -6,7 +6,21 @@ set curunits [units]
 units internal
 load pmos_waffle_corner2 -silent
 box values 0 0 0 0
-box values -2000 -2000 2588 2588
+box values -1852 2318 2216 2380
+paint checkpaint
+box values -1852 2304 2304 2318
+paint checkpaint
+box values -1852 2216 2318 2304
+paint checkpaint
+box values -1852 2137 2380 2216
+paint checkpaint
+box values -1958 2136 2380 2137
+paint checkpaint
+box values -2000 -1852 2380 2136
+paint checkpaint
+box values -2000 -1928 2139 -1852
+paint checkpaint
+box values -1958 -2000 2139 -1928
 paint checkpaint
 box values 0 0 588 588
 paint nwell
@@ -56,17 +70,17 @@ box values 326 0 358 144
 paint hvpdiffc
 box values 398 0 430 144
 paint hvpdiffc
-box values 0 130 144 144
+box values 0 126 144 144
 paint hvnsubdiff
-box values 0 84 98 98
+box values 0 80 94 94
 paint hvnsubdiff
-box values 84 0 98 84
+box values 80 0 94 80
 paint hvnsubdiff
-box values 130 0 144 130
+box values 126 0 144 126
 paint hvnsubdiff
-box values 0 98 130 130
+box values 0 94 126 126
 paint hvnsubdiffcont
-box values 98 0 130 98
+box values 94 0 126 94
 paint hvnsubdiffcont
 box values 224 304 304 444
 paint poly
@@ -142,13 +156,13 @@ box values 290 210 296 216
 splitpaint nw metal1
 box values 0 144 216 148
 paint metal1
-box values 0 130 170 144
+box values 0 126 170 144
 paint metal1
-box values 0 90 98 98
+box values 0 90 94 94
 paint metal1
-box values 90 0 98 90
+box values 90 0 94 90
 paint metal1
-box values 130 0 170 130
+box values 126 0 170 126
 paint metal1
 box values 202 0 216 144
 paint metal1
