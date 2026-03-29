@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1774748448
+timestamp 1774796900
 << nwell >>
 rect -1740 1430 15534 4492
 << hvpsubdiff >>
@@ -640,21 +640,21 @@ timestamp 1772657197
 transform 1 0 -832 0 1 2151
 box -29 -173 29 173
 use via_Y6Z2DQ  via_Y6Z2DQ_0 paramcells
-timestamp 1774747317
+timestamp 1772657197
 transform 1 0 -1272 0 1 208
-box 0 0 1 1
+box -70 -29 70 29
 use via_Y6Z2DQ  via_Y6Z2DQ_1
-timestamp 1774747317
+timestamp 1772657197
 transform 1 0 -1092 0 1 208
-box 0 0 1 1
+box -70 -29 70 29
 use via_Y6Z2DQ  via_Y6Z2DQ_2
-timestamp 1774747317
+timestamp 1772657197
 transform 1 0 -919 0 1 108
-box 0 0 1 1
+box -70 -29 70 29
 use via_Y6Z2DQ  via_Y6Z2DQ_3
-timestamp 1774747317
+timestamp 1772657197
 transform 1 0 -740 0 1 108
-box 0 0 1 1
+box -70 -29 70 29
 use via_Y6Z86N  via_Y6Z86N_0 paramcells
 timestamp 1772657197
 transform 1 0 -302 0 -1 122
@@ -1047,14 +1047,6 @@ use via_Y6ZD6N  via_Y6ZD6N_8
 array 0 0 -74 0 40 352
 timestamp 1774732395
 transform 0 1 233 -1 0 1389
-box -29 -111 29 111
-use via_Y6ZD6N  via_Y6ZD6N_9
-timestamp 1774732395
-transform 0 1 -1173 -1 0 207
-box -29 -111 29 111
-use via_Y6ZD6N  via_Y6ZD6N_10
-timestamp 1774732395
-transform 0 1 -825 -1 0 107
 box -29 -111 29 111
 << labels >>
 flabel metal3 -1804 186 -1700 230 0 FreeSans 320 0 0 0 in_p

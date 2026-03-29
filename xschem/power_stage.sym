@@ -22,7 +22,7 @@ B 5 -152.5 -32.5 -147.5 -27.5 {name=IOVDD_IN dir=in}
 B 5 -152.5 -12.5 -147.5 -7.5 {name=IOVSS dir=in}
 B 5 -152.5 7.5 -147.5 12.5 {name=DVSS dir=in}
 B 5 -152.5 27.5 -147.5 32.5 {name=DVDD dir=in}
-B 5 -152.5 47.5 -147.5 52.5 {name=IOVDD_OUT dir=in}
+B 5 -152.5 47.5 -147.5 52.5 {name=IOVDD_OUT dir=out}
 T {@symname} -67.5 -6 0 0 0.3 0.3 {}
 T {@name} 135 -72 0 0 0.2 0.2 {}
 T {enable} -125 -54 0 0 0.2 0.2 {}
