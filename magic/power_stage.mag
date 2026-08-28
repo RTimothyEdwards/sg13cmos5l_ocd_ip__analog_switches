@@ -159,11 +159,11 @@ use pmos_waffle_20  pmos_waffle_20_0
 timestamp 1774814370
 transform 1 0 1270 0 1 1270
 box -1270 -1270 21518 21518
-use sg13cmos5l_antennanp  sg13cmos5l_antennanp_0 ../../../magic/sg13cmos5l_stdcell
+use sg13cmos5l_antennanp  sg13cmos5l_antennanp_0
 timestamp 1774721386
 transform -1 0 20884 0 1 -3700
 box -48 -56 336 834
-use sg13cmos5l_decap_4  sg13cmos5l_decap_4_0 ../../../magic/sg13cmos5l_stdcell
+use sg13cmos5l_decap_4  sg13cmos5l_decap_4_0
 timestamp 1774721386
 transform -1 0 21268 0 1 -3700
 box -48 -56 432 834
@@ -171,7 +171,7 @@ use sg13cmos5l_decap_4  sg13cmos5l_decap_4_1
 timestamp 1774721386
 transform -1 0 19444 0 1 -3700
 box -48 -56 432 834
-use sg13cmos5l_inv_4  sg13cmos5l_inv_4_0 sg13cmos5l_stdcell
+use sg13cmos5l_inv_4  sg13cmos5l_inv_4_0
 timestamp 1773957321
 transform -1 0 20596 0 1 -3700
 box -48 -56 624 834
@@ -218,6 +218,6 @@ flabel metal4 22202 -4490 23820 -3658 0 FreeSans 4800 0 0 0 DVSS
 port 3 nsew
 flabel metal4 21040 -5842 23826 -5020 0 FreeSans 4800 0 0 0 IOVSS
 port 4 nsew
-flabel metal3 23452 -3384 23722 -3340 0 FreeSans 320 0 0 0 enable
+flabel metal3 23452 -3384 23722 -3340 0 FreeSans 320 0 0 0 nenable
 port 5 nsew
 << end >>

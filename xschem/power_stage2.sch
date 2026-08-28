@@ -6,7 +6,7 @@ S {}
 E {}
 T {48x48 grid} 1760 -880 0 0 0.4 0.4 {}
 T {Power switch with waffle pFET power transistor} 930 -1120 0 0 0.4 0.4 {}
-N 1630 -840 1630 -720 { lab=#net1}
+N 1630 -840 1630 -720 { lab=IOVDD_OUT}
 N 1630 -920 1630 -900 { lab=IOVDD_IN}
 N 1630 -870 1650 -870 { lab=IOVDD_IN}
 N 1650 -920 1650 -870 { lab=IOVDD_IN}
@@ -17,40 +17,37 @@ lab=IOVDD_IN}
 N 1010 -810 1080 -810 {
 lab=IOVSS}
 N 430 -1040 480 -1040 {
-lab=nenable}
+lab=enable}
 N 480 -1040 480 -1010 {
-lab=nenable}
+lab=enable}
 N 480 -1010 730 -1010 {
-lab=nenable}
-N 820 -1010 840 -1010 {
-lab=#net2}
-N 820 -1010 820 -870 {
-lab=#net2}
-N 820 -870 1080 -870 {
-lab=#net2}
-N 940 -1010 940 -850 {
-lab=#net3}
+lab=enable}
 N 1380 -870 1590 -870 {
 lab=P_DRIVE}
 N 1630 -920 1650 -920 {
 lab=IOVDD_IN}
-N 810 -1010 820 -1010 {
-lab=#net2}
+N 820 -1010 840 -1010 {
+lab=#net1}
 N 1060 -920 1630 -920 {lab=IOVDD_IN}
 N 920 -1010 940 -1010 {
-lab=#net3}
-N 940 -850 1080 -850 {lab=#net3}
+lab=#net2}
 N 1060 -920 1060 -830 {lab=IOVDD_IN}
 N 1010 -710 1050 -710 {lab=DVSS}
 N 1010 -740 1050 -740 {lab=DVDD}
-C {devices/ipin.sym} 430 -1040 0 0 {name=p5 lab=nenable}
+N 940 -1010 940 -870 {lab=#net2}
+N 940 -870 1080 -870 {lab=#net2}
+N 820 -850 1080 -850 {lab=#net1}
+N 820 -1010 820 -850 {lab=#net1}
+N 810 -1010 820 -1010 {
+lab=#net1}
+C {devices/ipin.sym} 430 -1040 0 0 {name=p5 lab=enable}
 C {devices/ipin.sym} 1060 -920 0 0 {name=p1 lab=IOVDD_IN}
 C {devices/ipin.sym} 1010 -710 0 0 {name=p3 lab=DVSS}
 C {sg13cmos5l_pr/sg13_hv_pmos.sym} 1610 -870 0 0 {name=M14
 l=0.4u
-w=4.36u
+w=10.0u
 ng=1
-m=760
+m=700
 model=sg13_hv_pmos
 spiceprefix=X
 }

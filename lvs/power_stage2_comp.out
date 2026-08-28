@@ -172,17 +172,17 @@ VSS                                        |VSS
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sg13cmos5l_inv_4 and sg13cmos5l_inv_4 are equivalent.
-Flattening unmatched subcell pmos_waffle_20 in circuit power_stage (0)(1 instance)
+Flattening unmatched subcell sg13_hv_pmos_ZN7EJW in circuit power_stage2 (0)(7 instances)
 
-Class power_stage (0):  Merged 760 parallel devices.
-Class power_stage (1):  Merged 1 parallel devices.
+Class power_stage2 (0):  Merged 700 parallel devices.
+Class power_stage2 (1):  Merged 1 parallel devices.
 Subcircuit summary:
-Circuit 1: power_stage                     |Circuit 2: power_stage                     
+Circuit 1: power_stage2                    |Circuit 2: power_stage2                    
 -------------------------------------------|-------------------------------------------
+sg13_hv_pmos (700->1)                      |sg13_hv_pmos (700->1)                      
 gate_drive (1)                             |gate_drive (1)                             
 sg13cmos5l_antennanp (1)                   |sg13cmos5l_antennanp (1)                   
 sg13cmos5l_decap_4 (2->1)                  |sg13cmos5l_decap_4 (2->1)                  
-sg13_hv_pmos (760->1)                      |sg13_hv_pmos (760->1)                      
 sg13cmos5l_inv_4 (2)                       |sg13cmos5l_inv_4 (2)                       
 Number of devices: 6                       |Number of devices: 6                       
 Number of nets: 9                          |Number of nets: 9                          
@@ -190,17 +190,17 @@ Number of nets: 9                          |Number of nets: 9
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: power_stage                     |Circuit 2: power_stage                     
+Circuit 1: power_stage2                    |Circuit 2: power_stage2                    
 -------------------------------------------|-------------------------------------------
 DVDD                                       |DVDD                                       
 DVSS                                       |DVSS                                       
 IOVDD_OUT                                  |IOVDD_OUT                                  
 IOVSS                                      |IOVSS                                      
+enable                                     |enable                                     
 IOVDD_IN                                   |IOVDD_IN                                   
-nenable                                    |nenable                                    
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes power_stage and power_stage are equivalent.
+Device classes power_stage2 and power_stage2 are equivalent.
 
 Final result: Circuits match uniquely.
 .

@@ -1,0 +1,7 @@
+Analog multiplexers and power switches for IHP sg13cmos5l
+
+Warning:  The first version of the power switch using the waffle layout
+of the pMOS has an *inverted* enable.  The second version has a
+non-inverted enable.  Since the original version taped out on the first
+IHP sg13cmos5l shuttle run, the signal has been renamed from "enable"
+to "nenable" to make clear that it is sense negative.

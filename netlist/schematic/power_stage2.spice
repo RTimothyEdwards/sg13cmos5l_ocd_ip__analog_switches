@@ -1,13 +1,13 @@
-** sch_path: /home/tim/gits/sg13cmos5l_ocd_chipalooza/dependencies/sg13cmos5l_ocd_ip__analog_switches/xschem/power_stage.sch
-.subckt power_stage nenable IOVDD_IN IOVSS DVSS DVDD IOVDD_OUT
-*.PININFO nenable:I IOVDD_IN:I DVSS:I DVDD:I IOVSS:I IOVDD_OUT:O
-XM14 IOVDD_OUT P_DRIVE IOVDD_IN IOVDD_IN sg13_hv_pmos w=4.36u l=0.4u ng=1 m=760
-x2 net1 net2 P_DRIVE IOVDD_IN IOVSS gate_drive
-x1 net1 nenable DVDD DVSS sg13cmos5l_inv_4
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_chipalooza/dependencies/sg13cmos5l_ocd_ip__analog_switches/xschem/power_stage2.sch
+.subckt power_stage2 enable IOVDD_IN IOVSS DVSS DVDD IOVDD_OUT
+*.PININFO enable:I IOVDD_IN:I DVSS:I DVDD:I IOVSS:I IOVDD_OUT:O
+XM14 IOVDD_OUT P_DRIVE IOVDD_IN IOVDD_IN sg13_hv_pmos w=10.0u l=0.4u ng=1 m=700
+x2 net2 net1 P_DRIVE IOVDD_IN IOVSS gate_drive
+x1 net1 enable DVDD DVSS sg13cmos5l_inv_4
 x3 net2 net1 DVDD DVSS sg13cmos5l_inv_4
 x4[1] DVDD DVSS sg13cmos5l_decap_4
 x4[0] DVDD DVSS sg13cmos5l_decap_4
-x9 nenable DVDD DVSS sg13cmos5l_antennanp
+x9 enable DVDD DVSS sg13cmos5l_antennanp
 .ends
 
 * expanding   symbol:  gate_drive.sym # of pins=5
