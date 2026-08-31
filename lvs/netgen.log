@@ -1,11 +1,11 @@
 Netgen 1.5.314 compiled on Mon Jul  6 10:20:11 EDT 2026
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
-Call to undefined subcircuit sg13_hv_pmos
-Creating placeholder cell definition.
 Call to undefined subcircuit dpantenna
 Creating placeholder cell definition.
 Call to undefined subcircuit dantenna
+Creating placeholder cell definition.
+Call to undefined subcircuit sg13_hv_pmos
 Creating placeholder cell definition.
 Call to undefined subcircuit sg13_hv_nmos
 Creating placeholder cell definition.
@@ -100,8 +100,8 @@ No property DEV_C found for device dantenna
 No property DEV_A found for device dpantenna
 No property DEV_P found for device dpantenna
 No property DEV_C found for device dpantenna
-Comparison output logged to file analog_switch_comp.out
-Logging to file "analog_switch_comp.out" enabled
+Comparison output logged to file analog_switch_med_comp.out
+Logging to file "analog_switch_med_comp.out" enabled
 Circuit sg13_hv_nmos contains no devices.
 Circuit sg13_hv_pmos contains no devices.
 Circuit sg13_lv_pmos contains no devices.
@@ -191,17 +191,17 @@ Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
 Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
 
 
-Contents of circuit 1:  Circuit: 'analog_switch'
-Circuit analog_switch contains 206 device instances.
+Contents of circuit 1:  Circuit: 'analog_switch_med'
+Circuit analog_switch_med contains 86 device instances.
   Class: gate_drive_med        instances:   1
-  Class: sg13_hv_nmos          instances: 100
+  Class: sg13_hv_nmos          instances:  40
   Class: sg13cmos5l_antennanp  instances:   1
   Class: sg13cmos5l_decap_4    instances:   2
   Class: sg13cmos5l_inv_4      instances:   2
-  Class: sg13_hv_pmos          instances: 100
+  Class: sg13_hv_pmos          instances:  40
 Circuit contains 11 nets.
-Contents of circuit 2:  Circuit: 'analog_switch'
-Circuit analog_switch contains 8 device instances.
+Contents of circuit 2:  Circuit: 'analog_switch_med'
+Circuit analog_switch_med contains 8 device instances.
   Class: gate_drive_med        instances:   1
   Class: sg13_hv_nmos          instances:   1
   Class: sg13cmos5l_antennanp  instances:   1
@@ -213,8 +213,8 @@ Circuit contains 11 nets.
 Circuit was modified by parallel/series device merging.
 New circuit summary:
 
-Contents of circuit 1:  Circuit: 'analog_switch'
-Circuit analog_switch contains 7 device instances.
+Contents of circuit 1:  Circuit: 'analog_switch_med'
+Circuit analog_switch_med contains 7 device instances.
   Class: gate_drive_med        instances:   1
   Class: sg13_hv_nmos          instances:   1
   Class: sg13cmos5l_antennanp  instances:   1
@@ -222,8 +222,8 @@ Circuit analog_switch contains 7 device instances.
   Class: sg13cmos5l_inv_4      instances:   2
   Class: sg13_hv_pmos          instances:   1
 Circuit contains 11 nets.
-Contents of circuit 2:  Circuit: 'analog_switch'
-Circuit analog_switch contains 7 device instances.
+Contents of circuit 2:  Circuit: 'analog_switch_med'
+Circuit analog_switch_med contains 7 device instances.
   Class: gate_drive_med        instances:   1
   Class: sg13_hv_nmos          instances:   1
   Class: sg13cmos5l_antennanp  instances:   1
@@ -239,5 +239,5 @@ Circuit 1 contains 11 nets,    Circuit 2 contains 11 nets.
 Final result: 
 Circuits match uniquely.
 .
-Logging to file "analog_switch_comp.out" disabled
+Logging to file "analog_switch_med_comp.out" disabled
 LVS Done.
