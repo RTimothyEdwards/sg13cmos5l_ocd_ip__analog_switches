@@ -4,13 +4,10 @@ K {}
 V {}
 S {}
 E {}
-N -110 20 -80 20 {lab=#net1}
-N -220 20 -170 20 {lab=vout}
-N -220 80 -220 110 {lab=GND}
-N -330 0 -80 -0 {lab=dvdd}
-N -330 0 -330 20 {lab=dvdd}
-N -400 -60 -80 -60 {lab=vin}
-N -400 -60 -400 20 {lab=vin}
+N -110 30 -80 30 {lab=#net1}
+N -220 30 -170 30 {lab=vout}
+N -400 -40 -80 -40 {lab=vin}
+N -400 -40 -400 20 {lab=vin}
 N -270 110 -220 110 {lab=GND}
 N -400 80 -400 110 {lab=GND}
 N -330 80 -330 110 {lab=GND}
@@ -18,15 +15,19 @@ N -400 110 -330 110 {lab=GND}
 N -270 -20 -80 -20 {lab=GND}
 N -270 -20 -270 110 {lab=GND}
 N -330 110 -270 110 {lab=GND}
-N -270 -40 -80 -40 {lab=GND}
-N -270 -40 -270 -20 {lab=GND}
-N -450 80 -450 110 {lab=GND}
-N -450 110 -400 110 {lab=GND}
-N -450 -80 -80 -80 {lab=#net2}
-N -450 -80 -450 20 {lab=#net2}
-C {power_stage2.sym} 70 -30 0 0 {name=x1}
-C {ammeter.sym} -140 20 1 0 {name=Vmeas savecurrent=true spice_ignore=0}
-C {res.sym} -220 50 0 0 {name=R1
+N -330 -80 -330 20 {lab=dvdd}
+N -330 -80 -80 -80 {lab=dvdd}
+N -460 80 -460 110 {lab=GND}
+N -460 110 -400 110 {lab=GND}
+N -460 -110 220 -110 {lab=ena}
+N 220 -110 220 -80 {lab=ena}
+N -220 90 -220 110 {lab=GND}
+N 220 30 260 30 {lab=vin}
+N -270 -60 -80 -60 {lab=GND}
+N -270 -60 -270 -20 {lab=GND}
+N -460 -110 -460 20 {lab=ena}
+C {ammeter.sym} -140 30 1 0 {name=Vmeas savecurrent=true spice_ignore=0}
+C {res.sym} -220 60 0 0 {name=R1
 value=1k
 footprint=1206
 device=resistor
@@ -47,7 +48,10 @@ C {code_shown.sym} -390 370 0 0 {name=s2 only_toplevel=false value=".lib $PDK_RO
 .lib $PDK_ROOT/ihp-sg13cmos5l/libs.tech/ngspice/models/cornerRES.lib res_typ
 
 .include $PDK_ROOT/ihp-sg13cmos5l/libs.ref/sg13cmos5l_stdcell/spice/sg13cmos5l_stdcell.spice"}
-C {lab_wire.sym} -210 20 0 0 {name=p1 sig_type=std_logic lab=vout}
-C {lab_wire.sym} -360 -60 0 0 {name=p2 sig_type=std_logic lab=vin}
-C {lab_wire.sym} -290 0 0 0 {name=p3 sig_type=std_logic lab=dvdd}
-C {vsource.sym} -450 50 0 1 {name=V3 value="PWL(0 0 200n 0 400n 1.2)" savecurrent=false}
+C {lab_wire.sym} -210 30 0 0 {name=p1 sig_type=std_logic lab=vout}
+C {lab_wire.sym} -370 -40 0 0 {name=p2 sig_type=std_logic lab=vin}
+C {lab_wire.sym} -290 -80 0 0 {name=p3 sig_type=std_logic lab=dvdd}
+C {analog_switch.sym} 70 -30 0 1 {name=x2}
+C {vsource.sym} -460 50 0 1 {name=V3 value="PWL (0 0 200n 0 500n 1.2)" savecurrent=false}
+C {lab_wire.sym} -420 -110 0 0 {name=p4 sig_type=std_logic lab=ena}
+C {lab_pin.sym} 260 30 0 1 {name=p5 sig_type=std_logic lab=vin}

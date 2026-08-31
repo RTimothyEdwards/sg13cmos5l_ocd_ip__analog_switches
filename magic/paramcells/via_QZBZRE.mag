@@ -1,0 +1,29 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1788197651
+<< metal1 >>
+rect -3581 102 3581 103
+rect -3581 -102 -3572 102
+rect 3572 -102 3581 102
+rect -3581 -103 3581 -102
+<< via1 >>
+rect -3572 -102 3572 102
+<< metal2 >>
+rect -3572 102 3572 111
+rect -3572 -111 3572 -102
+<< via2 >>
+rect -3572 -102 3572 102
+<< metal3 >>
+rect -3581 -102 -3572 102
+rect 3572 -102 3581 102
+<< via3 >>
+rect -3572 -102 3572 102
+<< metal4 >>
+rect -3572 102 3572 111
+rect -3572 -111 3572 -102
+<< properties >>
+string gencell via
+string library sg13cmos5l
+string parameters metalbot metal1 metaltop metal4 nxcuts 75 nycuts 3 orient default pattern none
+<< end >>

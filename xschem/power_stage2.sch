@@ -4,7 +4,6 @@ K {}
 V {}
 S {}
 E {}
-T {48x48 grid} 1760 -880 0 0 0.4 0.4 {}
 T {Power switch with waffle pFET power transistor} 930 -1120 0 0 0.4 0.4 {}
 N 1630 -840 1630 -720 { lab=IOVDD_OUT}
 N 1630 -920 1630 -900 { lab=IOVDD_IN}
@@ -40,6 +39,7 @@ N 820 -850 1080 -850 {lab=#net1}
 N 820 -1010 820 -850 {lab=#net1}
 N 810 -1010 820 -1010 {
 lab=#net1}
+N 480 -1040 560 -1040 {lab=enable}
 C {devices/ipin.sym} 430 -1040 0 0 {name=p5 lab=enable}
 C {devices/ipin.sym} 1060 -920 0 0 {name=p1 lab=IOVDD_IN}
 C {devices/ipin.sym} 1010 -710 0 0 {name=p3 lab=DVSS}
@@ -52,12 +52,12 @@ model=sg13_hv_pmos
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 1800 -920 0 0 {name=l10 sig_type=std_logic lab=IOVDD_IN}
-C {gate_drive.sym} 1230 -830 0 0 {name=x2}
+C {gate_drive_large.sym} 1230 -830 0 0 {name=x2}
 C {devices/lab_wire.sym} 1400 -870 0 1 {name=l30 sig_type=std_logic lab=P_DRIVE}
 C {sg13cmos5l_stdcells/sg13cmos5l_inv_4.sym} 770 -1010 0 0 {name=x1 VDD=DVDD VSS=DVSS prefix=sg13cmos5l_ }
 C {sg13cmos5l_stdcells/sg13cmos5l_inv_4.sym} 880 -1010 0 0 {name=x3 VDD=DVDD VSS=DVSS prefix=sg13cmos5l_ }
 C {sg13cmos5l_stdcells/sg13cmos5l_decap_4.sym} 570 -900 0 0 {name=x4[1:0] VDD=DVDD VSS=DVSS prefix=sg13cmos5l_ }
-C {sg13cmos5l_stdcells/sg13cmos5l_antennanp.sym} 570 -1040 0 0 {name=x9 VDD=DVDD VSS=DVSS prefix=sg13cmos5l_ }
+C {sg13cmos5l_stdcells/sg13cmos5l_antennanp.sym} 650 -1040 0 0 {name=x9 VDD=DVDD VSS=DVSS prefix=sg13cmos5l_ }
 C {devices/ipin.sym} 1010 -740 0 0 {name=p4 lab=DVDD}
 C {devices/ipin.sym} 1010 -810 0 0 {name=p2 lab=IOVSS}
 C {lab_pin.sym} 1050 -740 0 1 {name=p6 sig_type=std_logic lab=DVDD}

@@ -72,6 +72,34 @@ VSS                                        |VSS
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sg13cmos5l_antennanp and sg13cmos5l_antennanp are equivalent.
+Flattening unmatched subcell sg13_hv_nmos_VCL2HP in circuit gate_drive_med (0)(1 instance)
+Flattening unmatched subcell sg13_hv_pmos_G9ZGU3 in circuit gate_drive_med (0)(1 instance)
+Flattening unmatched subcell sg13_hv_pmos_2TUKLB in circuit gate_drive_med (0)(1 instance)
+Flattening unmatched subcell sg13_hv_nmos_CJ33WB in circuit gate_drive_med (0)(1 instance)
+
+Class gate_drive_med (0):  Merged 72 parallel devices.
+Subcircuit summary:
+Circuit 1: gate_drive_med                  |Circuit 2: gate_drive_med                  
+-------------------------------------------|-------------------------------------------
+sg13_hv_nmos (42->6)                       |sg13_hv_nmos (42->6)                       
+sg13_hv_pmos (42->6)                       |sg13_hv_pmos (42->6)                       
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: gate_drive_med                  |Circuit 2: gate_drive_med                  
+-------------------------------------------|-------------------------------------------
+in_p                                       |in_p                                       
+in_n                                       |in_n                                       
+out                                        |out                                        
+outn                                       |outn                                       
+vss                                        |vss                                        
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gate_drive_med and gate_drive_med are equivalent.
 
 Subcircuit summary:
 Circuit 1: sg13cmos5l_decap_4              |Circuit 2: sg13cmos5l_decap_4              
@@ -91,33 +119,6 @@ VDD                                        |VDD
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sg13cmos5l_decap_4 and sg13cmos5l_decap_4 are equivalent.
-Flattening unmatched subcell sg13_hv_nmos_XAVYYR in circuit gate_drive_large (0)(1 instance)
-Flattening unmatched subcell sg13_hv_nmos_3JX36Y in circuit gate_drive_large (0)(1 instance)
-Flattening unmatched subcell sg13_hv_pmos_RQMCRC in circuit gate_drive_large (0)(1 instance)
-Flattening unmatched subcell sg13_hv_pmos_FG6ZZW in circuit gate_drive_large (0)(1 instance)
-
-Class gate_drive_large (0):  Merged 172 parallel devices.
-Subcircuit summary:
-Circuit 1: gate_drive_large                |Circuit 2: gate_drive_large                
--------------------------------------------|-------------------------------------------
-sg13_hv_nmos (92->6)                       |sg13_hv_nmos (92->6)                       
-sg13_hv_pmos (92->6)                       |sg13_hv_pmos (92->6)                       
-Number of devices: 12                      |Number of devices: 12                      
-Number of nets: 10                         |Number of nets: 10                         
----------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: gate_drive_large                |Circuit 2: gate_drive_large                
--------------------------------------------|-------------------------------------------
-out                                        |out                                        
-in_p                                       |in_p                                       
-in_n                                       |in_n                                       
-vss                                        |vss                                        
-vdd                                        |vdd                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gate_drive_large and gate_drive_large are equivalent.
 
 Class sg13cmos5l_inv_4 (0):  Merged 6 parallel devices.
 Subcircuit summary:
@@ -140,35 +141,40 @@ VSS                                        |VSS
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sg13cmos5l_inv_4 and sg13cmos5l_inv_4 are equivalent.
-Flattening unmatched subcell sg13_hv_pmos_ZN7EJW in circuit power_stage2 (0)(7 instances)
+Flattening unmatched subcell sg13_hv_pmos_ZN7EJW in circuit analog_switch (0)(1 instance)
+Flattening unmatched subcell sg13_hv_nmos_ECTMXA in circuit analog_switch (0)(1 instance)
 
-Class power_stage2 (0):  Merged 700 parallel devices.
-Class power_stage2 (1):  Merged 1 parallel devices.
+Class analog_switch (0):  Merged 199 parallel devices.
+Class analog_switch (1):  Merged 1 parallel devices.
 Subcircuit summary:
-Circuit 1: power_stage2                    |Circuit 2: power_stage2                    
+Circuit 1: analog_switch                   |Circuit 2: analog_switch                   
 -------------------------------------------|-------------------------------------------
-sg13_hv_pmos (700->1)                      |sg13_hv_pmos (700->1)                      
+sg13_hv_pmos (100->1)                      |sg13_hv_pmos (100->1)                      
 sg13cmos5l_antennanp (1)                   |sg13cmos5l_antennanp (1)                   
+gate_drive_med (1)                         |gate_drive_med (1)                         
 sg13cmos5l_decap_4 (2->1)                  |sg13cmos5l_decap_4 (2->1)                  
-gate_drive_large (1)                       |gate_drive_large (1)                       
 sg13cmos5l_inv_4 (2)                       |sg13cmos5l_inv_4 (2)                       
-Number of devices: 6                       |Number of devices: 6                       
-Number of nets: 9                          |Number of nets: 9                          
+sg13_hv_nmos (100->1)                      |sg13_hv_nmos (100->1)                      
+Number of devices: 7                       |Number of devices: 7                       
+Number of nets: 11                         |Number of nets: 11                         
 ---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: power_stage2                    |Circuit 2: power_stage2                    
+Circuit 1: analog_switch                   |Circuit 2: analog_switch                   
 -------------------------------------------|-------------------------------------------
-DVDD                                       |DVDD                                       
-DVSS                                       |DVSS                                       
-IOVDD_OUT                                  |IOVDD_OUT                                  
-IOVSS                                      |IOVSS                                      
+dvdd                                       |dvdd                                       
+dvss                                       |dvss                                       
+in                                         |in                                         
+out                                        |out                                        
+avss                                       |avss                                       
+avdd                                       |avdd                                       
 enable                                     |enable                                     
-IOVDD_IN                                   |IOVDD_IN                                   
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes power_stage2 and power_stage2 are equivalent.
+Device classes analog_switch and analog_switch are equivalent.
 
 Final result: Circuits match uniquely.
 .

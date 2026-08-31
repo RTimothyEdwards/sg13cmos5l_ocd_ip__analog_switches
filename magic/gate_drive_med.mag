@@ -1,0 +1,714 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1788197651
+<< nwell >>
+rect -1180 1430 7054 4492
+<< hvpsubdiff >>
+rect -1194 1240 6984 1254
+rect -1194 1208 -1120 1240
+rect 6910 1208 6984 1240
+rect -1194 1194 6984 1208
+rect -1194 1180 -1134 1194
+rect -1194 -218 -1180 1180
+rect -1148 -218 -1134 1180
+rect -1194 -232 -1134 -218
+rect 6924 1180 6984 1194
+rect 6924 -218 6938 1180
+rect 6970 -218 6984 1180
+rect 6924 -232 6984 -218
+rect -1194 -246 6984 -232
+rect -1194 -278 -1120 -246
+rect 6910 -278 6984 -246
+rect -1194 -292 6984 -278
+<< hvnsubdiff >>
+rect -1056 4354 6930 4368
+rect -1056 4322 -982 4354
+rect 6856 4322 6930 4354
+rect -1056 4308 6930 4322
+rect -1056 4294 -996 4308
+rect -1056 1628 -1042 4294
+rect -1010 1628 -996 4294
+rect -1056 1614 -996 1628
+rect 6870 4294 6930 4308
+rect 6870 1628 6884 4294
+rect 6916 1628 6930 4294
+rect 6870 1614 6930 1628
+rect -1056 1600 6930 1614
+rect -1056 1568 -982 1600
+rect 6856 1568 6930 1600
+rect -1056 1554 6930 1568
+<< hvpsubdiffcont >>
+rect -1120 1208 6910 1240
+rect -1180 -218 -1148 1180
+rect 6938 -218 6970 1180
+rect -1120 -278 6910 -246
+<< hvnsubdiffcont >>
+rect -982 4322 6856 4354
+rect -1042 1628 -1010 4294
+rect 6884 1628 6916 4294
+rect -982 1568 6856 1600
+<< metal1 >>
+rect -1042 4322 -982 4354
+rect 6856 4338 6916 4354
+rect 6856 4322 6942 4338
+rect -1042 4294 6942 4322
+rect -1044 1628 -1042 4252
+rect -1010 4140 6884 4294
+rect -1010 1778 -906 4140
+rect -1010 1628 6884 1778
+rect 6916 4140 6942 4294
+rect 6916 1628 6942 1778
+rect -1044 1600 6942 1628
+rect -1044 1584 -982 1600
+rect -1042 1568 -982 1584
+rect 6856 1580 6942 1600
+rect 6856 1568 6916 1580
+rect -1180 1208 -1120 1240
+rect 6910 1208 6970 1240
+rect -1180 1180 6970 1208
+rect -1148 1026 6938 1180
+rect -1148 -218 -1038 1026
+rect -1180 -246 -1038 -218
+rect 6822 -218 6938 1026
+rect 6822 -246 6970 -218
+rect -1180 -278 -1120 -246
+rect 6910 -278 6970 -246
+<< metal2 >>
+rect -772 1926 -728 2110
+rect -796 1814 -750 1925
+rect -596 1923 -552 2110
+rect -596 1873 -449 1923
+rect -796 1768 -564 1814
+rect -499 1706 -449 1873
+rect -916 1656 -449 1706
+rect -236 1424 -192 4072
+rect -60 1424 -16 4072
+rect 116 1427 160 4072
+rect 292 1427 336 4072
+rect 468 1427 512 4072
+rect 644 1427 688 4072
+rect 820 1427 864 4072
+rect 996 1427 1040 4072
+rect 1172 1433 1216 4072
+rect 1348 1433 1392 4072
+rect 1524 1433 1568 4072
+rect 1700 1433 1744 4072
+rect 1876 1433 1920 4072
+rect 2052 1433 2096 4072
+rect 2228 1433 2272 4072
+rect 2404 1433 2448 4072
+rect 2580 1433 2624 4072
+rect 2756 1433 2800 4072
+rect 2932 1433 2976 4072
+rect 3108 1433 3152 4072
+rect 3284 1433 3328 4072
+rect 3460 1433 3504 4072
+rect 3636 1433 3680 4072
+rect 3812 1433 3856 4072
+rect 3988 1435 4032 4072
+rect 4164 1435 4208 4072
+rect 4340 1435 4384 4072
+rect 4516 1435 4560 4072
+rect 4692 1435 4736 4072
+rect 4868 1435 4912 4072
+rect 5044 1435 5088 4072
+rect 5220 1435 5264 4072
+rect 5396 1435 5440 4072
+rect 5572 1435 5616 4072
+rect 5748 1435 5792 4072
+rect 5924 1435 5968 4072
+rect 6100 1435 6144 4072
+rect 6276 1435 6320 4072
+rect 6452 1435 6496 4072
+rect 6628 1435 6672 4072
+rect -236 1349 -16 1424
+rect -892 182 -848 930
+rect -610 82 -566 906
+rect -236 -220 -192 1349
+rect -60 -220 -16 1349
+rect 108 1337 1040 1427
+rect 1157 1337 3857 1433
+rect 3985 1347 6672 1435
+rect 116 -220 160 1337
+rect 292 -220 336 1337
+rect 468 -220 512 1337
+rect 644 -220 688 1337
+rect 820 -220 864 1337
+rect 996 -220 1040 1337
+rect 1172 -220 1216 1337
+rect 1348 -220 1392 1337
+rect 1524 -220 1568 1337
+rect 1700 -220 1744 1337
+rect 1876 -220 1920 1337
+rect 2052 -220 2096 1337
+rect 2228 -220 2272 1337
+rect 2404 -220 2448 1337
+rect 2580 -220 2624 1337
+rect 2756 -220 2800 1337
+rect 2932 -220 2976 1337
+rect 3108 -220 3152 1337
+rect 3284 -220 3328 1337
+rect 3460 -220 3504 1337
+rect 3636 -220 3680 1337
+rect 3812 -220 3856 1337
+rect 3988 -220 4032 1347
+rect 4164 -220 4208 1347
+rect 4340 -220 4384 1347
+rect 4516 -220 4560 1347
+rect 4692 -220 4736 1347
+rect 4868 -220 4912 1347
+rect 5044 -220 5088 1347
+rect 5220 -220 5264 1347
+rect 5396 -220 5440 1347
+rect 5572 -220 5616 1347
+rect 5748 -220 5792 1347
+rect 5924 -220 5968 1347
+rect 6100 -220 6144 1347
+rect 6276 -220 6320 1347
+rect 6452 -220 6496 1347
+rect 6628 -220 6672 1347
+<< metal3 >>
+rect -1045 3100 6919 3910
+rect -870 2485 -460 3100
+rect -694 2068 -632 2485
+rect -872 1710 -810 2030
+rect -517 1826 -455 2342
+rect -760 1766 -455 1826
+rect -760 1764 -470 1766
+rect -872 1666 -752 1710
+rect -814 654 -752 1666
+rect -532 1415 -470 1764
+rect -174 1614 -90 2844
+rect 1062 2834 1188 2842
+rect 6108 2834 6658 2835
+rect 220 2018 1188 2834
+rect 1272 2044 3745 2834
+rect 1272 2018 3726 2044
+rect 4095 2018 6658 2834
+rect 1062 1657 1188 2018
+rect 3490 1774 3726 2018
+rect 5431 1774 5979 1775
+rect -174 1530 168 1614
+rect 1062 1531 1281 1657
+rect 3490 1554 5979 1774
+rect 84 1432 168 1530
+rect 1155 1432 1281 1531
+rect 5431 1432 5979 1554
+rect -532 1353 -5 1415
+rect -532 654 -470 1353
+rect 84 1334 1042 1432
+rect 1155 1344 3872 1432
+rect 3976 1344 5979 1432
+rect 84 1224 168 1334
+rect 1155 1248 1281 1344
+rect -168 1140 168 1224
+rect -1193 436 -292 598
+rect -464 294 -292 436
+rect -168 416 -86 1140
+rect 1062 1091 1281 1248
+rect 5431 1186 5979 1344
+rect 3491 1164 5979 1186
+rect 1062 834 1188 1091
+rect 3488 966 5979 1164
+rect 3488 834 3718 966
+rect 6108 834 6658 2018
+rect 214 482 1188 834
+rect 1280 482 3718 834
+rect 4090 482 6658 834
+rect 1062 480 1188 482
+rect -1344 186 -814 230
+rect -1344 86 -522 130
+rect -464 -64 6975 294
+use sg13_hv_nmos_CJ33WB  sg13_hv_nmos_CJ33WB_0 paramcells
+timestamp 1788194329
+transform 1 0 -731 0 1 672
+box -257 -274 257 274
+use sg13_hv_nmos_VCL2HP  sg13_hv_nmos_VCL2HP_0 paramcells
+timestamp 1788194329
+transform 1 0 3218 0 1 386
+box -3550 -574 3550 574
+use sg13_hv_pmos_2TUKLB  sg13_hv_pmos_2TUKLB_0 paramcells
+timestamp 1788194329
+transform 1 0 -664 0 1 2012
+box -330 -174 330 174
+use sg13_hv_pmos_G9ZGU3  sg13_hv_pmos_G9ZGU3_0 paramcells
+timestamp 1788194329
+transform 1 0 3218 0 1 2964
+box -3674 -1124 3674 1124
+use via_Y2RFW7  via_Y2RFW7_0 paramcells
+timestamp 1772659690
+transform 1 0 -1029 0 1 3475
+box -29 -461 29 461
+use via_Y2RFW7  via_Y2RFW7_1
+timestamp 1772659690
+transform 1 0 -1165 0 1 795
+box -29 -461 29 461
+use via_Y2RFW7  via_Y2RFW7_2
+timestamp 1772659690
+transform 1 0 6953 0 1 389
+box -29 -461 29 461
+use via_Y2RFW7  via_Y2RFW7_3
+timestamp 1772659690
+transform 1 0 6897 0 1 3505
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_0 paramcells
+timestamp 1788194329
+transform 1 0 -302 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_1
+timestamp 1788194329
+transform 1 0 -126 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_2
+timestamp 1788194329
+transform 1 0 226 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_3
+timestamp 1788194329
+transform 1 0 50 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_4
+timestamp 1788194329
+transform 1 0 578 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_5
+timestamp 1788194329
+transform 1 0 402 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_6
+timestamp 1788194329
+transform 1 0 930 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_7
+timestamp 1788194329
+transform 1 0 754 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_8
+timestamp 1788194329
+transform 1 0 1282 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_9
+timestamp 1788194329
+transform 1 0 1106 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_10
+timestamp 1788194329
+transform 1 0 1634 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_11
+timestamp 1788194329
+transform 1 0 1458 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_12
+timestamp 1788194329
+transform 1 0 1986 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_13
+timestamp 1788194329
+transform 1 0 1810 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_14
+timestamp 1788194329
+transform 1 0 2338 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_15
+timestamp 1788194329
+transform 1 0 2162 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_16
+timestamp 1788194329
+transform 1 0 2690 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_17
+timestamp 1788194329
+transform 1 0 2514 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_18
+timestamp 1788194329
+transform 1 0 3042 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_19
+timestamp 1788194329
+transform 1 0 2866 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_20
+timestamp 1788194329
+transform 1 0 3394 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_21
+timestamp 1788194329
+transform 1 0 3218 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_22
+timestamp 1788194329
+transform 1 0 3746 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_23
+timestamp 1788194329
+transform 1 0 3570 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_24
+timestamp 1788194329
+transform 1 0 4098 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_25
+timestamp 1788194329
+transform 1 0 3922 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_26
+timestamp 1788194329
+transform 1 0 4450 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_27
+timestamp 1788194329
+transform 1 0 4274 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_28
+timestamp 1788194329
+transform 1 0 4802 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_29
+timestamp 1788194329
+transform 1 0 4626 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_30
+timestamp 1788194329
+transform 1 0 5154 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_31
+timestamp 1788194329
+transform 1 0 4978 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_32
+timestamp 1788194329
+transform 1 0 5506 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_33
+timestamp 1788194329
+transform 1 0 5330 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_34
+timestamp 1788194329
+transform 1 0 5858 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_35
+timestamp 1788194329
+transform 1 0 5682 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_36
+timestamp 1788194329
+transform 1 0 6210 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_37
+timestamp 1788194329
+transform 1 0 6034 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_38
+timestamp 1788194329
+transform 1 0 6562 0 1 2430
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_39
+timestamp 1788194329
+transform 1 0 6386 0 1 3493
+box -29 -461 29 461
+use via_Y2RFX7  via_Y2RFX7_40
+timestamp 1788194329
+transform 1 0 6738 0 1 3493
+box -29 -461 29 461
+use via_Y6H96N  via_Y6H96N_0 paramcells
+timestamp 1788194329
+transform 1 0 -841 0 1 2173
+box -29 -173 29 173
+use via_Y6H96N  via_Y6H96N_1
+timestamp 1788194329
+transform 1 0 -489 0 1 2173
+box -29 -173 29 173
+use via_Y6H96N  via_Y6H96N_3
+timestamp 1788194329
+transform 1 0 -664 0 1 2151
+box -29 -173 29 173
+use via_Y6Z2DQ_x2  via_Y6Z2DQ_0 paramcells
+timestamp 1772657197
+transform 1 0 -872 0 1 208
+box -70 -29 70 29
+use via_Y6Z2DQ_x2  via_Y6Z2DQ_2
+timestamp 1772657197
+transform 1 0 -589 0 1 108
+box -70 -29 70 29
+use via_Y6Z86N  via_Y6Z86N_0 paramcells
+timestamp 1788194329
+transform 1 0 -302 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_1
+timestamp 1788194329
+transform 1 0 -126 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_2
+timestamp 1788194329
+transform 1 0 50 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_3
+timestamp 1788194329
+transform 1 0 226 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_4
+timestamp 1788194329
+transform 1 0 402 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_5
+timestamp 1788194329
+transform 1 0 578 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_6
+timestamp 1788194329
+transform 1 0 754 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_7
+timestamp 1788194329
+transform 1 0 930 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_8
+timestamp 1788194329
+transform 1 0 1106 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_9
+timestamp 1788194329
+transform 1 0 1282 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_10
+timestamp 1788194329
+transform 1 0 1458 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_11
+timestamp 1788194329
+transform 1 0 1634 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_12
+timestamp 1788194329
+transform 1 0 1810 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_13
+timestamp 1788194329
+transform 1 0 1986 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_14
+timestamp 1788194329
+transform 1 0 2162 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_15
+timestamp 1788194329
+transform 1 0 2338 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_16
+timestamp 1788194329
+transform 1 0 2514 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_17
+timestamp 1788194329
+transform 1 0 2690 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_18
+timestamp 1788194329
+transform 1 0 2866 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_19
+timestamp 1788194329
+transform 1 0 3042 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_20
+timestamp 1788194329
+transform 1 0 3218 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_21
+timestamp 1788194329
+transform 1 0 3394 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_22
+timestamp 1788194329
+transform 1 0 3570 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_23
+timestamp 1788194329
+transform 1 0 3746 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_24
+timestamp 1788194329
+transform 1 0 3922 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_25
+timestamp 1788194329
+transform 1 0 4098 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_26
+timestamp 1788194329
+transform 1 0 4274 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_27
+timestamp 1788194329
+transform 1 0 4450 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_28
+timestamp 1788194329
+transform 1 0 4626 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_29
+timestamp 1788194329
+transform 1 0 4802 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_30
+timestamp 1788194329
+transform 1 0 4978 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_31
+timestamp 1788194329
+transform 1 0 5154 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_32
+timestamp 1788194329
+transform 1 0 5330 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_33
+timestamp 1788194329
+transform 1 0 5506 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_34
+timestamp 1788194329
+transform 1 0 5682 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_35
+timestamp 1788194329
+transform 1 0 5858 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_36
+timestamp 1788194329
+transform 1 0 6034 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_37
+timestamp 1788194329
+transform 1 0 6210 0 -1 651
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_38
+timestamp 1788194329
+transform 1 0 6386 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_39
+timestamp 1788194329
+transform 1 0 6738 0 -1 122
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_40
+timestamp 1788194329
+transform 1 0 6562 0 -1 651
+box -29 -221 29 221
+use via_Y6ZD6N  via_Y6ZD6N_0 paramcells
+timestamp 1788194329
+transform 1 0 -959 0 1 588
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_1
+timestamp 1788194329
+transform 1 0 -681 0 1 589
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_2
+timestamp 1788194329
+transform 0 1 585 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_3
+timestamp 1788194329
+transform 1 0 -783 0 1 757
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_4
+timestamp 1788194329
+transform 1 0 -499 0 1 761
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_5
+timestamp 1788194329
+transform 0 1 -795 -1 0 1681
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_6
+timestamp 1788194329
+transform 0 1 -659 -1 0 1793
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_7
+timestamp 1788194329
+transform 0 1 -123 -1 0 1383
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_8
+timestamp 1788194329
+transform 0 1 233 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_9
+timestamp 1788194329
+transform 0 1 937 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_10
+timestamp 1788194329
+transform 0 1 1289 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_11
+timestamp 1788194329
+transform 0 1 1641 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_12
+timestamp 1788194329
+transform 0 1 1993 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_13
+timestamp 1788194329
+transform 0 1 2345 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_14
+timestamp 1788194329
+transform 0 1 2697 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_15
+timestamp 1788194329
+transform 0 1 3049 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_16
+timestamp 1788194329
+transform 0 1 3401 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_17
+timestamp 1788194329
+transform 0 1 4457 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_18
+timestamp 1788194329
+transform 0 1 3753 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_19
+timestamp 1788194329
+transform 0 1 4105 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_20
+timestamp 1788194329
+transform 0 1 4809 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_21
+timestamp 1788194329
+transform 0 1 5161 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_22
+timestamp 1788194329
+transform 0 1 5513 -1 0 1389
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_23
+timestamp 1788194329
+transform 0 1 5865 -1 0 1389
+box -29 -111 29 111
+<< labels >>
+flabel metal3 -464 -40 -352 270 0 FreeSans 1600 0 0 0 vss
+port 3 nsew
+flabel metal3 -1344 186 -1240 230 0 FreeSans 320 0 0 0 in_p
+port 0 nsew
+flabel metal3 -1344 86 -1240 130 0 FreeSans 320 0 0 0 in_n
+port 1 nsew
+flabel metal3 -936 3380 -392 3632 0 FreeSans 1600 0 0 0 vdd
+port 2 nsew
+flabel metal3 6244 1288 6510 1416 0 FreeSans 1600 0 0 0 out
+port 4 nsew
+flabel metal3 5542 1296 5812 1426 0 FreeSans 1600 0 0 0 outn
+port 5 nsew
+<< properties >>
+string MASKHINTS_THKOX -1804 -292 15534 4492
+<< end >>

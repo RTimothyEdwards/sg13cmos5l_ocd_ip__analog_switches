@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1787933312
+timestamp 1788191803
 << error_s >>
 rect 1302 790 17490 794
 << digisub >>
@@ -837,36 +837,36 @@ rect 1140 794 20366 854
 rect 1140 362 1302 794
 rect 17490 362 20366 794
 rect 1140 290 20366 362
-use gate_drive  gate_drive_0
-timestamp 1774817789
+use gate_drive_large  gate_drive_large_0
+timestamp 1788191595
 transform -1 0 16488 0 1 -4140
 box -1804 -292 15534 4492
 use sg13_hv_pmos_ZN7EJW  sg13_hv_pmos_ZN7EJW_0 paramcells
-timestamp 1787933312
+timestamp 1787931734
 transform 1 0 2034 0 1 11464
 box -1410 -10668 1410 10668
 use sg13_hv_pmos_ZN7EJW  sg13_hv_pmos_ZN7EJW_1
-timestamp 1787933312
+timestamp 1787931734
 transform 1 0 4546 0 1 11464
 box -1410 -10668 1410 10668
 use sg13_hv_pmos_ZN7EJW  sg13_hv_pmos_ZN7EJW_2
-timestamp 1787933312
+timestamp 1787931734
 transform 1 0 7058 0 1 11464
 box -1410 -10668 1410 10668
 use sg13_hv_pmos_ZN7EJW  sg13_hv_pmos_ZN7EJW_3
-timestamp 1787933312
+timestamp 1787931734
 transform 1 0 9570 0 1 11464
 box -1410 -10668 1410 10668
 use sg13_hv_pmos_ZN7EJW  sg13_hv_pmos_ZN7EJW_4
-timestamp 1787933312
+timestamp 1787931734
 transform 1 0 12082 0 1 11464
 box -1410 -10668 1410 10668
 use sg13_hv_pmos_ZN7EJW  sg13_hv_pmos_ZN7EJW_5
-timestamp 1787933312
+timestamp 1787931734
 transform 1 0 14594 0 1 11464
 box -1410 -10668 1410 10668
 use sg13_hv_pmos_ZN7EJW  sg13_hv_pmos_ZN7EJW_6
-timestamp 1787933312
+timestamp 1787931734
 transform 1 0 17106 0 1 11464
 box -1410 -10668 1410 10668
 use sg13cmos5l_antennanp  sg13cmos5l_antennanp_0
