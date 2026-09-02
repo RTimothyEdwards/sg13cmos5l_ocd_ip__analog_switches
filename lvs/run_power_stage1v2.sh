@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo ${PDK_ROOT:=/home/tim/gits} > /dev/null
+echo ${PDK:=ihp-sg13cmos5l} > /dev/null
+
+netgen -batch source run_power_stage1v2.tcl | tee netgen.log
+

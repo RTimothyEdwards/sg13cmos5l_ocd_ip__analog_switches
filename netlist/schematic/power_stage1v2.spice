@@ -1,0 +1,23 @@
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_chipalooza/dependencies/sg13cmos5l_ocd_ip__analog_switches/xschem/power_stage1v2.sch
+.subckt power_stage1v2 enable DVDD_IN DVSS DVDD_OUT
+*.PININFO enable:I DVDD_IN:I DVSS:I DVDD_OUT:O
+x2 enable P_DRIVE DVDD_IN DVSS gate_drive_1v2
+XM1 DVDD_OUT P_DRIVE DVDD_IN DVDD_IN sg13_lv_pmos w=5u l=0.13u ng=1 m=500 mm_ok=1
+.ends
+
+* expanding   symbol:  gate_drive_1v2.sym # of pins=4
+** sym_path: /home/tim/gits/sg13cmos5l_ocd_chipalooza/dependencies/sg13cmos5l_ocd_ip__analog_switches/xschem/gate_drive_1v2.sym
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_chipalooza/dependencies/sg13cmos5l_ocd_ip__analog_switches/xschem/gate_drive_1v2.sch
+.subckt gate_drive_1v2 in out dvdd dvss
+*.PININFO out:O in:I dvdd:B dvss:B
+x2 net1 net3 dvdd dvss sg13cmos5l_inv_2
+x3 net2 net1 dvdd dvss sg13cmos5l_inv_8
+x4 net4 net2 dvdd dvss sg13cmos5l_inv_16
+x6 net3 in dvdd dvss sg13cmos5l_inv_1
+x7 in dvdd dvss sg13cmos5l_antennanp
+x8[1] dvdd dvss sg13cmos5l_decap_4
+x8[0] dvdd dvss sg13cmos5l_decap_4
+XM1 out net4 dvss dvss sg13_lv_nmos w=26.64u l=0.13u ng=36 m=1 mm_ok=1
+XM2 out net4 dvdd dvdd sg13_lv_pmos w=40.32u l=0.13u ng=36 m=1 mm_ok=1
+.ends
+

@@ -1,0 +1,334 @@
+* NGSPICE file created from power_stage1v2.ext - technology: ihp-sg13cmos5l
+
+.subckt sg13_lv_pmos_5MXUJM B D0_0 G D0_1 D0_2 D0_3 D0_4 D0_5 D0_6 D0_7 D0_8 D0_9
++ S1_0 S1_1 S1_2 S1_3 S1_4 S1_5 S1_6 S1_7 S1_8 S1_9 D2_0 D2_1 D2_2 D2_3 D2_4 D2_5
++ D2_6 D2_7 D2_8 D2_9 S3_0 S3_1 S3_2 S3_3 S3_4 S3_5 S3_6 S3_7 S3_8 S3_9 D4_0 D4_1
++ D4_2 D4_3 D4_4 D4_5 D4_6 D4_7 D4_8 D4_9 S5_0 S5_1 S5_2 S5_3 S5_4 S5_5 S5_6 S5_7
++ S5_8 S5_9 D6_0 D6_1 D6_2 D6_3 D6_4 D6_5 D6_6 D6_7 D6_8 D6_9 S7_0 S7_1 S7_2 S7_3
++ S7_4 S7_5 S7_6 S7_7 S7_8 S7_9 D8_0 D8_1 D8_2 D8_3 D8_4 D8_5 D8_6 D8_7 D8_8 D8_9
++ S9_0 S9_1 S9_2 S9_3 S9_4 S9_5 S9_6 S9_7 S9_8 S9_9 a_778_n3220# a_778_n4308# a_778_1132#
++ a_778_n5396# a_778_n1044# a_778_44# a_778_2220# a_778_3308# a_778_n2132# a_778_4396#
+X0 D8_4 G S7_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X1 S7_1 G D6_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X2 S3_4 G D2_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X3 D4_1 G S3_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X4 a_778_n3220# G S9_2 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X5 S1_2 G D0_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X6 a_778_n2132# G S9_3 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X7 S1_3 G D0_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X8 D8_9 G S7_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X9 S3_9 G D2_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X10 S5_9 G D4_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X11 D8_0 G S7_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X12 S3_0 G D2_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X13 D6_6 G S5_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X14 D2_1 G S1_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X15 S7_8 G D6_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X16 a_778_4396# G S9_9 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X17 S7_7 G D6_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X18 D4_8 G S3_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X19 S1_9 G D0_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X20 D4_7 G S3_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X21 D6_5 G S5_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X22 S9_8 G D8_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X23 S5_4 G D4_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X24 S9_7 G D8_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X25 S9_4 G D8_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X26 D8_6 G S7_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X27 S5_0 G D4_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X28 D8_2 G S7_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X29 D6_4 G S5_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X30 S3_2 G D2_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X31 S5_6 G D4_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X32 S3_6 G D2_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X33 S9_0 G D8_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X34 D8_3 G S7_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X35 S3_3 G D2_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X36 a_778_n4308# G S9_1 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X37 S1_1 G D0_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X38 a_778_1132# G S9_6 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X39 D6_0 G S5_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X40 S1_6 G D0_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X41 D6_8 G S5_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X42 D6_7 G S5_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X43 S7_4 G D6_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X44 D4_4 G S3_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X45 S1_5 G D0_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X46 S5_2 G D4_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X47 D2_5 G S1_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X48 S9_2 G D8_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X49 D2_9 G S1_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X50 S5_3 G D4_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X51 S9_3 G D8_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X52 S3_5 G D2_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X53 D8_8 G S7_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X54 S7_0 G D6_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X55 D8_7 G S7_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X56 D4_0 G S3_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X57 D6_2 G S5_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X58 S5_8 G D4_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X59 S3_8 G D2_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X60 D8_1 G S7_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X61 D6_3 G S5_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X62 D2_4 G S1_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X63 S3_1 G D2_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X64 D4_5 G S3_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X65 S5_7 G D4_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X66 S3_7 G D2_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X67 a_778_3308# G S9_8 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X68 a_778_2220# G S9_7 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X69 S1_8 G D0_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X70 D2_0 G S1_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X71 S1_7 G D0_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X72 S7_9 G D6_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X73 D4_9 G S3_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X74 D2_6 G S1_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X75 S9_9 G D8_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X76 S7_2 G D6_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X77 D4_2 G S3_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X78 S7_3 G D6_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X79 a_778_44# G S9_5 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X80 S5_1 G D4_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X81 D4_3 G S3_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X82 a_778_n1044# G S9_4 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X83 S9_1 G D8_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X84 S1_4 G D0_4 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X85 S9_5 G D8_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X86 D8_5 G S7_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X87 D6_1 G S5_1 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X88 D2_2 G S1_2 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X89 a_778_n5396# G S9_0 B sg13_lv_pmos ad=3.4p pd=11.36u as=1.8p ps=5.72u w=5u l=0.13u
+X90 S5_5 G D4_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X91 S7_6 G D6_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X92 S1_0 G D0_0 B sg13_lv_pmos ad=1.8p pd=5.72u as=3.4p ps=11.36u w=5u l=0.13u
+X93 D2_3 G S1_3 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X94 S7_5 G D6_5 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X95 D4_6 G S3_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X96 D6_9 G S5_9 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X97 S9_6 G D8_6 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X98 D2_8 G S1_8 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+X99 D2_7 G S1_7 B sg13_lv_pmos ad=1.8p pd=5.72u as=1.8p ps=5.72u w=5u l=0.13u
+.ends
+
+.subckt sg13cmos5l_inv_2 Y A VDD VSS
+X0 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X1 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X2 VSS A Y VSS sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X3 VDD A Y VDD sg13_lv_pmos ad=0.3864p pd=2.93u as=0.2128p ps=1.5u w=1.12u l=0.13u
+.ends
+
+.subckt sg13cmos5l_antennanp A VDD VSS
+X0 A VDD dpantenna l=1.34u w=1.05u
+X1 VSS A dantenna l=0.78u w=0.78u
+.ends
+
+.subckt sg13cmos5l_inv_16 Y A VDD VSS
+X0 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X1 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X2 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X3 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X4 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X5 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X6 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X7 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X8 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X9 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X10 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X11 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X12 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X13 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X14 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X15 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X16 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X17 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X18 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X19 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X20 VSS A Y VSS sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X21 VDD A Y VDD sg13_lv_pmos ad=0.4368p pd=3.02u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X22 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X23 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X24 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X25 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X26 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X27 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X28 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X29 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X30 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X31 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+.ends
+
+.subckt sg13cmos5l_inv_1 Y A VDD VSS
+X0 Y A VSS VSS sg13_lv_nmos ad=0.2516p pd=2.16u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X1 Y A VDD VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.3808p ps=2.92u w=1.12u l=0.13u
+.ends
+
+.subckt sg13cmos5l_decap_4 VDD VSS
+X0 VDD VSS VDD VDD sg13_lv_pmos ad=0.34p pd=2.68u as=2.4331p ps=11.58u w=1u l=1u
+X1 VSS VDD VSS VSS sg13_lv_nmos ad=0.1428p pd=1.52u as=1.84612p ps=9.32u w=0.42u l=1u
+.ends
+
+.subckt sg13cmos5l_inv_8 Y A VDD VSS
+X0 VSS A Y VSS sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1443p ps=1.13u w=0.74u l=0.13u
+X1 VDD A Y VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2184p ps=1.51u w=1.12u l=0.13u
+X2 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X3 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X4 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X5 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X6 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X7 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X8 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X9 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X10 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X11 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X12 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X13 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X14 Y A VSS VSS sg13_lv_nmos ad=0.1443p pd=1.13u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X15 Y A VDD VDD sg13_lv_pmos ad=0.2184p pd=1.51u as=0.2128p ps=1.5u w=1.12u l=0.13u
+.ends
+
+.subckt gate_drive_1v2 in out dvss dvdd
+Xsg13cmos5l_inv_2_0 sg13cmos5l_inv_8_0/A sg13cmos5l_inv_2_0/A dvdd dvss sg13cmos5l_inv_2
+Xsg13cmos5l_antennanp_0 in dvdd dvss sg13cmos5l_antennanp
+Xsg13cmos5l_inv_16_0 sg13cmos5l_inv_16_0/Y sg13cmos5l_inv_8_0/Y dvdd dvss sg13cmos5l_inv_16
+Xsg13cmos5l_inv_1_0 sg13cmos5l_inv_2_0/A in dvdd dvss sg13cmos5l_inv_1
+Xsg13cmos5l_decap_4_0 dvdd dvss sg13cmos5l_decap_4
+Xsg13cmos5l_decap_4_1 dvdd dvss sg13cmos5l_decap_4
+Xsg13cmos5l_inv_8_0 sg13cmos5l_inv_8_0/Y sg13cmos5l_inv_8_0/A dvdd dvss sg13cmos5l_inv_8
+X0 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X1 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X2 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X3 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X4 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X5 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X6 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X7 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.4368p ps=3.02u w=1.12u l=0.13u
+X8 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X9 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X10 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X11 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X12 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X13 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X14 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X15 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X16 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X17 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X18 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X19 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X20 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X21 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X22 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X23 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X24 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X25 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X26 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X27 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X28 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X29 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X30 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X31 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X32 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X33 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X34 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X35 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X36 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X37 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X38 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X39 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X40 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X41 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X42 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X43 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X44 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X45 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X46 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X47 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X48 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X49 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X50 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X51 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X52 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X53 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X54 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X55 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X56 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X57 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X58 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X59 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X60 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X61 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X62 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X63 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X64 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X65 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X66 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X67 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X68 dvdd sg13cmos5l_inv_16_0/Y out dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X69 dvss sg13cmos5l_inv_16_0/Y out dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X70 out sg13cmos5l_inv_16_0/Y dvdd dvdd sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X71 out sg13cmos5l_inv_16_0/Y dvss dvss sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+.ends
+
+.subckt power_stage1v2 DVDD_IN DVDD_OUT DVSS enable
+Xsg13_lv_pmos_5MXUJM_0[0] DVDD_IN DVDD_IN gate_drive_1v2_0/out DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN sg13_lv_pmos_5MXUJM
+Xsg13_lv_pmos_5MXUJM_0[1] DVDD_IN DVDD_IN gate_drive_1v2_0/out DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN sg13_lv_pmos_5MXUJM
+Xsg13_lv_pmos_5MXUJM_0[2] DVDD_IN DVDD_IN gate_drive_1v2_0/out DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN sg13_lv_pmos_5MXUJM
+Xsg13_lv_pmos_5MXUJM_0[3] DVDD_IN DVDD_IN gate_drive_1v2_0/out DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN sg13_lv_pmos_5MXUJM
+Xsg13_lv_pmos_5MXUJM_0[4] DVDD_IN DVDD_IN gate_drive_1v2_0/out DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT
++ DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_OUT DVDD_IN DVDD_IN DVDD_IN DVDD_IN
++ DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN DVDD_IN sg13_lv_pmos_5MXUJM
+Xgate_drive_1v2_0 enable gate_drive_1v2_0/out DVSS DVDD_IN gate_drive_1v2
+.ends
+

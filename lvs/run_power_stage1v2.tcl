@@ -1,9 +1,9 @@
-# Tcl script to run LVS on the power switch (power_stage2)
+# Tcl script to run LVS on the low-voltage power switch (power_stage1v2)
 
 if {[catch {set PDK_ROOT $::env(PDK_ROOT)}]} {set PDK_ROOT /home/tim/gits}
 if {[catch {set PDK $::env(PDK)}]} {set PDK ihp-sg13cmos5l}
 
-set project power_stage2
+set project power_stage1v2
 
 set pdklib ${PDK_ROOT}/${PDK}
 set techlibs ${pdklib}/libs.tech
