@@ -1,0 +1,255 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1788447902
+<< nwell >>
+rect -1120 1430 694 2572
+<< hvpsubdiff >>
+rect -1114 1240 644 1254
+rect -1114 1208 -1040 1240
+rect 570 1208 644 1240
+rect -1114 1194 644 1208
+rect -1114 1180 -1054 1194
+rect -1114 542 -1100 1180
+rect -1068 542 -1054 1180
+rect -1114 528 -1054 542
+rect 584 1180 644 1194
+rect 584 542 598 1180
+rect 630 542 644 1180
+rect 584 528 644 542
+rect -1114 514 644 528
+rect -1114 482 -1040 514
+rect 570 482 644 514
+rect -1114 468 644 482
+<< hvnsubdiff >>
+rect -996 2434 570 2448
+rect -996 2402 -922 2434
+rect 496 2402 570 2434
+rect -996 2388 570 2402
+rect -996 2374 -936 2388
+rect -996 1628 -982 2374
+rect -950 1628 -936 2374
+rect -996 1614 -936 1628
+rect 510 2374 570 2388
+rect 510 1628 524 2374
+rect 556 1628 570 2374
+rect 510 1614 570 1628
+rect -996 1600 570 1614
+rect -996 1568 -922 1600
+rect 496 1568 570 1600
+rect -996 1554 570 1568
+<< hvpsubdiffcont >>
+rect -1040 1208 570 1240
+rect -1100 542 -1068 1180
+rect 598 542 630 1180
+rect -1040 482 570 514
+<< hvnsubdiffcont >>
+rect -922 2402 496 2434
+rect -982 1628 -950 2374
+rect 524 1628 556 2374
+rect -922 1568 496 1600
+<< metal1 >>
+rect -984 2402 -922 2434
+rect 496 2402 556 2434
+rect -984 2374 556 2402
+rect -984 1628 -982 2374
+rect -950 2352 524 2374
+rect -950 1658 -906 2352
+rect -950 1628 524 1658
+rect -984 1600 556 1628
+rect -984 1584 -922 1600
+rect -982 1568 -922 1584
+rect 496 1568 556 1600
+rect -1100 1208 -1040 1240
+rect 570 1208 630 1240
+rect -1100 1180 630 1208
+rect -1068 1146 598 1180
+rect -1068 542 -1042 1146
+rect -1100 530 -1042 542
+rect 548 542 598 1146
+rect 548 530 630 542
+rect -1100 514 630 530
+rect -1100 482 -1040 514
+rect 570 482 630 514
+<< metal2 >>
+rect -772 1805 -728 1990
+rect -796 1760 -728 1805
+rect -596 1803 -552 1990
+rect -796 1694 -750 1760
+rect -596 1753 -449 1803
+rect -796 1648 -564 1694
+rect -499 1586 -449 1753
+rect -916 1536 -449 1586
+rect -236 1424 -192 2306
+rect -60 1424 -16 2306
+rect 116 1427 160 2306
+rect 292 1427 336 2306
+rect -531 1349 -16 1424
+rect -892 317 -848 1091
+rect -610 333 -566 1070
+rect -236 762 -192 1349
+rect -60 762 -16 1349
+rect 108 1337 336 1427
+rect 116 762 160 1337
+rect 292 762 336 1337
+<< metal3 >>
+rect -994 2124 569 2330
+rect -870 2120 -460 2124
+rect -694 1948 -632 2120
+rect -872 1590 -810 1910
+rect -517 1706 -455 2064
+rect -340 1854 -264 2124
+rect -760 1646 -455 1706
+rect -760 1644 -470 1646
+rect -872 1546 -752 1590
+rect -814 814 -752 1546
+rect -532 1415 -470 1644
+rect -174 1614 -90 2076
+rect 12 1854 88 2124
+rect 190 1752 266 2070
+rect 370 1850 446 2124
+rect 190 1746 272 1752
+rect 196 1614 272 1746
+rect -174 1530 136 1614
+rect -532 1353 -312 1415
+rect -532 814 -470 1353
+rect -168 1140 136 1530
+rect 196 1140 500 1614
+rect -348 758 -272 1044
+rect -168 818 -86 1140
+rect 16 758 92 1046
+rect 196 826 272 1140
+rect 372 758 448 1050
+rect -1116 556 644 758
+use sg13_hv_nmos_CJ33WB  sg13_hv_nmos_CJ33WB_0 paramcells
+timestamp 1788194329
+transform 1 0 -731 0 1 832
+box -257 -274 257 274
+use sg13_hv_nmos_HSMMZS  sg13_hv_nmos_HSMMZS_0 paramcells
+timestamp 1788398116
+transform 1 0 50 0 1 926
+box -382 -174 382 174
+use sg13_hv_pmos_2TUKLB  sg13_hv_pmos_2TUKLB_0 paramcells
+timestamp 1788398116
+transform 1 0 -664 0 1 1892
+box -330 -174 330 174
+use sg13_hv_pmos_XRP95E  sg13_hv_pmos_XRP95E_0 paramcells
+timestamp 1788398116
+transform 1 0 50 0 1 2044
+box -506 -324 506 324
+use via_QP3U7V  via_QP3U7V_0 paramcells
+timestamp 1788447902
+transform 1 0 -961 0 1 2149
+box -29 -173 29 173
+use via_QP3U7V  via_QP3U7V_1
+timestamp 1788447902
+transform 1 0 -1083 0 1 767
+box -29 -173 29 173
+use via_QP3U7V  via_QP3U7V_2
+timestamp 1788447902
+transform 1 0 541 0 1 2147
+box -29 -173 29 173
+use via_QP3U7V  via_QP3U7V_3
+timestamp 1788447902
+transform 1 0 615 0 1 781
+box -29 -173 29 173
+use via_Y6Z86N  via_Y6Z86N_3 paramcells
+timestamp 1788398116
+transform 1 0 51 0 -1 2071
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_41
+timestamp 1788398116
+transform 1 0 -299 0 -1 2075
+box -29 -221 29 221
+use via_Y6Z86N  via_Y6Z86N_43
+timestamp 1788398116
+transform 1 0 402 0 -1 2071
+box -29 -221 29 221
+use via_Y6ZD6N  via_Y6ZD6N_0 paramcells
+timestamp 1788398116
+transform 1 0 -959 0 1 748
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_1
+timestamp 1788398116
+transform 1 0 -681 0 1 749
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_2
+timestamp 1788398116
+transform 1 0 227 0 1 1961
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_3
+timestamp 1788398116
+transform 1 0 -783 0 1 917
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_4
+timestamp 1788398116
+transform 1 0 -499 0 1 921
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_5
+timestamp 1788398116
+transform 0 1 -795 -1 0 1561
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_6
+timestamp 1788398116
+transform 0 1 -659 -1 0 1673
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_7
+timestamp 1788398116
+transform 0 1 -421 -1 0 1383
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_8
+timestamp 1788398116
+transform -1 0 107 0 -1 1379
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_9
+timestamp 1788398116
+transform 1 0 -127 0 1 1965
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_24
+timestamp 1788398116
+transform -1 0 -840 0 -1 1953
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_25
+timestamp 1788398116
+transform -1 0 -661 0 -1 1961
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_26
+timestamp 1788398116
+transform -1 0 -486 0 -1 1957
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_27
+timestamp 1788398116
+transform 1 0 -125 0 1 943
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_28
+timestamp 1788398116
+transform 1 0 227 0 1 927
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_29
+timestamp 1788398116
+transform 1 0 -307 0 1 935
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_30
+timestamp 1788398116
+transform 1 0 53 0 1 935
+box -29 -111 29 111
+use via_Y6ZD6N  via_Y6ZD6N_31
+timestamp 1788398116
+transform 1 0 405 0 1 925
+box -29 -111 29 111
+<< labels >>
+flabel metal3 -154 1312 116 1442 0 FreeSans 1600 90 0 0 outn
+port 5 nsew
+flabel metal3 226 1316 492 1444 0 FreeSans 1600 90 0 0 out
+port 4 nsew
+flabel metal3 -370 620 -60 732 0 FreeSans 1600 0 0 0 vss
+port 3 nsew
+flabel metal3 -872 2128 -328 2324 0 FreeSans 1600 0 0 0 vdd
+port 2 nsew
+flabel metal2 -892 328 -848 432 0 FreeSans 320 90 0 0 in_p
+port 1 nsew
+flabel metal2 -610 333 -566 437 0 FreeSans 320 90 0 0 in_n
+port 0 nsew
+<< properties >>
+string MASKHINTS_THKOX -1804 -292 15534 4492
+<< end >>

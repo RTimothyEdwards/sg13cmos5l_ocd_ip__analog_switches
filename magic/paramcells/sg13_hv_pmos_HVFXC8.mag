@@ -1,0 +1,227 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1788399985
+<< nwell >>
+rect -738 -772 738 772
+<< hvpmos >>
+rect -376 -500 -296 500
+rect -152 -500 -72 500
+rect 72 -500 152 500
+rect 296 -500 376 500
+<< hvpdiff >>
+rect -512 486 -376 500
+rect -512 -486 -498 486
+rect -398 -486 -376 486
+rect -512 -500 -376 -486
+rect -296 486 -152 500
+rect -296 -486 -274 486
+rect -174 -486 -152 486
+rect -296 -500 -152 -486
+rect -72 486 72 500
+rect -72 -486 -50 486
+rect 50 -486 72 486
+rect -72 -500 72 -486
+rect 152 486 296 500
+rect 152 -486 174 486
+rect 274 -486 296 486
+rect 152 -500 296 -486
+rect 376 486 512 500
+rect 376 -486 398 486
+rect 498 -486 512 486
+rect 376 -500 512 -486
+<< hvpdiffc >>
+rect -498 -486 -398 486
+rect -274 -486 -174 486
+rect -50 -486 50 486
+rect 174 -486 274 486
+rect 398 -486 498 486
+<< hvnsubdiff >>
+rect -614 634 614 648
+rect -614 602 -522 634
+rect 522 602 614 634
+rect -614 588 614 602
+rect -614 556 -554 588
+rect -614 -556 -600 556
+rect -568 -556 -554 556
+rect 554 556 614 588
+rect -614 -588 -554 -556
+rect 554 -556 568 556
+rect 600 -556 614 556
+rect 554 -588 614 -556
+rect -614 -602 614 -588
+rect -614 -634 -522 -602
+rect 522 -634 614 -602
+rect -614 -648 614 -634
+<< hvnsubdiffcont >>
+rect -522 602 522 634
+rect -600 -556 -568 556
+rect 568 -556 600 556
+rect -522 -634 522 -602
+<< poly >>
+rect -376 560 -296 574
+rect -376 528 -362 560
+rect -310 528 -296 560
+rect -376 500 -296 528
+rect -152 560 -72 574
+rect -152 528 -138 560
+rect -86 528 -72 560
+rect -152 500 -72 528
+rect 72 560 152 574
+rect 72 528 86 560
+rect 138 528 152 560
+rect 72 500 152 528
+rect 296 560 376 574
+rect 296 528 310 560
+rect 362 528 376 560
+rect 296 500 376 528
+rect -376 -528 -296 -500
+rect -376 -560 -362 -528
+rect -310 -560 -296 -528
+rect -376 -574 -296 -560
+rect -152 -528 -72 -500
+rect -152 -560 -138 -528
+rect -86 -560 -72 -528
+rect -152 -574 -72 -560
+rect 72 -528 152 -500
+rect 72 -560 86 -528
+rect 138 -560 152 -528
+rect 72 -574 152 -560
+rect 296 -528 376 -500
+rect 296 -560 310 -528
+rect 362 -560 376 -528
+rect 296 -574 376 -560
+<< polycont >>
+rect -362 528 -310 560
+rect -138 528 -86 560
+rect 86 528 138 560
+rect 310 528 362 560
+rect -362 -560 -310 -528
+rect -138 -560 -86 -528
+rect 86 -560 138 -528
+rect 310 -560 362 -528
+<< metal1 >>
+rect -600 602 -522 634
+rect 522 602 600 634
+rect -600 556 -568 602
+rect -448 564 448 565
+rect -448 524 -362 564
+rect -310 524 -138 564
+rect -86 524 86 564
+rect 138 524 310 564
+rect 362 524 448 564
+rect -448 523 448 524
+rect 568 556 600 602
+rect -508 -486 -498 486
+rect -398 -486 -388 486
+rect -284 -486 -274 486
+rect -174 -486 -164 486
+rect -60 -486 -50 486
+rect 50 -486 60 486
+rect 164 -486 174 486
+rect 274 -486 284 486
+rect 388 -486 398 486
+rect 498 -486 508 486
+rect -600 -602 -568 -556
+rect -448 -524 448 -523
+rect -448 -564 -362 -524
+rect -310 -564 -138 -524
+rect -86 -564 86 -524
+rect 138 -564 310 -524
+rect 362 -564 448 -524
+rect -448 -565 448 -564
+rect 568 -602 600 -556
+rect -600 -634 -522 -602
+rect 522 -634 600 -602
+<< via1 >>
+rect -362 560 -310 564
+rect -362 528 -310 560
+rect -362 524 -310 528
+rect -138 560 -86 564
+rect -138 528 -86 560
+rect -138 524 -86 528
+rect 86 560 138 564
+rect 86 528 138 560
+rect 86 524 138 528
+rect 310 560 362 564
+rect 310 528 362 560
+rect 310 524 362 528
+rect -497 -464 -399 464
+rect -273 -464 -175 464
+rect -49 -464 49 464
+rect 175 -464 273 464
+rect 399 -464 497 464
+rect -362 -528 -310 -524
+rect -362 -560 -310 -528
+rect -362 -564 -310 -560
+rect -138 -528 -86 -524
+rect -138 -560 -86 -528
+rect -138 -564 -86 -560
+rect 86 -528 138 -524
+rect 86 -560 138 -528
+rect 86 -564 138 -560
+rect 310 -528 362 -524
+rect 310 -560 362 -528
+rect 310 -564 362 -560
+<< metal2 >>
+rect -362 564 -310 573
+rect -138 564 -86 573
+rect 86 564 138 573
+rect 310 564 362 573
+rect -448 524 -362 564
+rect -310 524 -138 564
+rect -86 524 86 564
+rect 138 524 310 564
+rect 362 524 448 564
+rect -362 515 -310 524
+rect -138 515 -86 524
+rect 86 515 138 524
+rect 310 515 362 524
+rect -497 464 -399 473
+rect -497 -473 -399 -464
+rect -273 464 -175 473
+rect -273 -473 -175 -464
+rect -49 464 49 473
+rect -49 -473 49 -464
+rect 175 464 273 473
+rect 175 -473 273 -464
+rect 399 464 497 473
+rect 399 -473 497 -464
+rect -362 -524 -310 -515
+rect -138 -524 -86 -515
+rect 86 -524 138 -515
+rect 310 -524 362 -515
+rect -448 -564 -362 -524
+rect -310 -564 -138 -524
+rect -86 -564 86 -524
+rect 138 -564 310 -524
+rect 362 -564 448 -524
+rect -362 -573 -310 -564
+rect -138 -573 -86 -564
+rect 86 -573 138 -564
+rect 310 -573 362 -564
+<< labels >>
+rlabel hvnsubdiffcont 0 -618 0 -618 0 B
+port 1 nsew
+rlabel hvpdiffc -448 0 -448 0 0 D0
+port 2 nsew
+rlabel polycont -336 544 -336 544 0 G
+port 3 nsew
+rlabel hvpdiffc -224 0 -224 0 0 S1
+port 4 nsew
+rlabel polycont -112 544 -112 544 0 G
+port 3 nsew
+rlabel hvpdiffc 0 0 0 0 0 D2
+port 5 nsew
+rlabel polycont 112 544 112 544 0 G
+port 3 nsew
+rlabel hvpdiffc 224 0 224 0 0 S3
+port 6 nsew
+rlabel polycont 336 544 336 544 0 G
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -584 -618 584 618
+string gencell sg13_hv_pmos
+string library sg13cmos5l
+string parameters w 5 l 0.4 m 1 ng 4 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 1 doverlap 1 lmin 0.4 wmin 0.15 class mosfet compatible {sg13_lv_pmos sg13_hv_pmos} full_metal 1 conn_gates 1 gate_ring 0 ccols 2 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>
