@@ -2200,11 +2200,11 @@ use sg13cmos5l_inv_2  sg13cmos5l_inv_2_0 sg13cmos5l_stdcell
 timestamp 1789591744
 transform 1 0 -276 0 1 4578
 box -48 -56 432 834
-use sg13cmos5l_inv_8  sg13cmos5l_inv_8_0 ../../../magic/sg13cmos5l_stdcell
+use sg13cmos5l_inv_8  sg13cmos5l_inv_8_0 sg13cmos5l_stdcell
 timestamp 1789591744
 transform 1 0 108 0 1 4578
 box -48 -56 1008 834
-use sg13cmos5l_inv_16  sg13cmos5l_inv_16_0 ../../../magic/sg13cmos5l_stdcell
+use sg13cmos5l_inv_16  sg13cmos5l_inv_16_0 sg13cmos5l_stdcell
 timestamp 1789591744
 transform -1 0 2892 0 1 4578
 box -48 -56 1872 834
