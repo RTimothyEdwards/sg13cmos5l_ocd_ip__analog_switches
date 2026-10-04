@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1790458259
+timestamp 1791074433
 << digisub >>
 rect 18491 -3973 19125 -1667
 << nwell >>
@@ -148,13 +148,31 @@ rect 9703 462 10437 723
 rect 11514 591 14561 716
 << metal2 >>
 rect 15546 9356 18593 9396
-rect 11755 9206 14314 9246
+rect 11493 9246 11612 9248
+rect 14477 9246 14587 9248
+rect 11493 9206 14587 9246
+rect 11493 7158 11612 9206
+rect 14477 7158 14587 9206
+rect 11493 7118 14587 7158
+rect 11493 5070 11612 7118
+rect 14477 5070 14587 7118
+rect 11493 5030 14587 5070
+rect 11493 2982 11612 5030
+rect 14477 2982 14587 5030
+rect 11493 2942 14587 2982
+rect 11493 896 11612 2942
+rect 14477 896 14587 2942
+rect 15546 7308 15668 9356
+rect 18471 7308 18593 9356
 rect 15546 7268 18593 7308
-rect 11755 7118 14314 7158
+rect 15546 5220 15668 7268
+rect 18471 5220 18593 7268
 rect 15546 5180 18593 5220
-rect 11755 5030 14314 5070
+rect 15546 3132 15668 5180
+rect 18471 3132 18593 5180
 rect 15546 3092 18593 3132
-rect 11755 2942 14314 2982
+rect 15546 1044 15668 3092
+rect 18471 1044 18593 3092
 rect 15546 1004 18593 1044
 rect 11737 854 14339 894
 rect 9685 723 14895 738
@@ -265,38 +283,6 @@ use via_4K6DRW  via_4K6DRW_0 paramcells
 timestamp 1788399985
 transform 1 0 15623 0 1 1024
 box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_1
-timestamp 1788399985
-transform 1 0 15623 0 1 3112
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_2
-timestamp 1788399985
-transform 1 0 15623 0 1 5200
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_3
-timestamp 1788399985
-transform 1 0 15623 0 1 7288
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_4
-timestamp 1788399985
-transform 1 0 15623 0 1 9376
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_17
-timestamp 1788399985
-transform 1 0 18510 0 1 9376
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_18
-timestamp 1788399985
-transform 1 0 18510 0 1 7288
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_19
-timestamp 1788399985
-transform 1 0 18510 0 1 5200
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_20
-timestamp 1788399985
-transform 1 0 18510 0 1 3112
-box -173 -29 173 29
 use via_4K6DRW  via_4K6DRW_21
 timestamp 1788399985
 transform 1 0 18510 0 1 1024
@@ -308,38 +294,6 @@ box -173 -29 173 29
 use via_4K6DRW  via_4K6DRW_23
 timestamp 1788399985
 transform 1 0 14478 0 1 874
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_24
-timestamp 1788399985
-transform 1 0 14478 0 1 2962
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_25
-timestamp 1788399985
-transform 1 0 11591 0 1 2962
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_26
-timestamp 1788399985
-transform 1 0 11591 0 1 5050
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_27
-timestamp 1788399985
-transform 1 0 14478 0 1 5050
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_28
-timestamp 1788399985
-transform 1 0 11591 0 1 7138
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_29
-timestamp 1788399985
-transform 1 0 14478 0 1 7138
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_30
-timestamp 1788399985
-transform 1 0 14478 0 1 9226
-box -173 -29 173 29
-use via_4K6DRW  via_4K6DRW_31
-timestamp 1788399985
-transform 1 0 11591 0 1 9226
 box -173 -29 173 29
 use via_AWBR46  via_AWBR46_0 paramcells
 timestamp 1788399985
