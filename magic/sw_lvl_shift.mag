@@ -250,6 +250,4 @@ flabel metal2 -892 328 -848 432 0 FreeSans 320 90 0 0 in_p
 port 1 nsew
 flabel metal2 -610 333 -566 437 0 FreeSans 320 90 0 0 in_n
 port 0 nsew
-<< properties >>
-string MASKHINTS_THKOX -1804 -292 15534 4492
 << end >>

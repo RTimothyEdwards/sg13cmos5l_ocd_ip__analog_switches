@@ -2217,6 +2217,4 @@ flabel metal2 -1236 4447 7157 4557 0 FreeSans 800 0 0 0 dvss
 port 2 nsew
 flabel metal2 -1244 5360 7149 5468 0 FreeSans 800 0 0 0 dvdd
 port 3 nsew
-<< properties >>
-string MASKHINTS_THKOX -1804 -292 15534 4492
 << end >>
