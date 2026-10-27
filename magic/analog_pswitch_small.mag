@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1790458259
+timestamp 1793063489
 << digisub >>
 rect 10968 264 11544 2501
 << nwell >>
@@ -112,27 +112,27 @@ timestamp 1788399985
 transform 1 0 14857 0 1 1408
 box -738 -772 738 772
 use sg13cmos5l_antennanp  sg13cmos5l_antennanp_0 sg13cmos5l_stdcell
-timestamp 1789591744
+timestamp 0
 transform 0 -1 11274 1 0 676
-box -48 -56 336 834
+box 0 0 1 1
 use sg13cmos5l_decap_4  sg13cmos5l_decap_4_0 sg13cmos5l_stdcell
-timestamp 1789591744
+timestamp 0
 transform 0 -1 11274 1 0 292
-box -48 -56 432 834
+box 0 0 1 1
 use sg13cmos5l_decap_4  sg13cmos5l_decap_4_1
-timestamp 1789591744
+timestamp 0
 transform 0 -1 11274 1 0 2116
-box -48 -56 432 834
+box 0 0 1 1
 use sg13cmos5l_inv_4  sg13cmos5l_inv_4_0 sg13cmos5l_stdcell
-timestamp 1789591744
+timestamp 0
 transform 0 -1 11274 1 0 964
-box -48 -56 624 834
+box 0 0 1 1
 use sg13cmos5l_inv_4  sg13cmos5l_inv_4_1
-timestamp 1789591744
+timestamp 0
 transform 0 -1 11274 1 0 1540
-box -48 -56 624 834
+box 0 0 1 1
 use sw_lvl_shift  sw_lvl_shift_0
-timestamp 1788656877
+timestamp 1793063489
 transform 0 1 11133 -1 0 1158
 box -1120 317 694 2572
 use via_NN8LKN  via_NN8LKN_5 paramcells
@@ -170,4 +170,6 @@ flabel metal2 16194 2041 16437 2498 0 FreeSans 1600 0 0 0 avss
 port 4 nsew
 flabel metal3 16066 1074 16401 1380 0 FreeSans 1600 0 0 0 in
 port 0 nsew
+<< properties >>
+string MASKHINTS_THKOX 11544 264 15942 2524
 << end >>
